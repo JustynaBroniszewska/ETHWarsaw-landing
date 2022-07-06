@@ -307,6 +307,58 @@ a:active {
   margin-top: 50px;
 }
 
+.sponsors {
+  background-color: #DAFCFE;
+  margin-top: 150px;
+}
+
+.sponsors-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.sponsors-tier-wrapper {
+  margin-bottom: 60px;
+}
+
+.sponsors-tier-title {
+  color: #5E5DC0;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.sponsors-logos-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sponsor-logo-wrapper-ocean {
+  height: 58px;
+}
+
+.sponsor-logo-wrapper-sea {
+  height: 48px;
+}
+
+.sponsor-logo-wrapper-lake {
+  height: 38px;
+}
+
+.sponsor-logo-wrapper-pond {
+  height: 28px;
+}
+
+.sponsors-logo-wrapper {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 .contact {
   display: flex;
   flex-direction: row;
@@ -462,6 +514,16 @@ a:active {
 
   .meetup-button {
     margin-top: 10px;
+  }
+
+  .sponsors-logos-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sponsors-logo-wrapper {
+    margin-bottom: 25px;
+    margin-top: 25px;
   }
 
   .contact-form-wrapper {
