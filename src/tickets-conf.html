@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <!-- Primary Meta Tags -->
+    <title>ETHWarsaw - Ethereum hackathon & conference - Sept 2022</title>
+    <meta name="title" content="ETHWarsaw - Ethereum hackathon & conference - Sept 2022">
+    <meta name="description" content="ETHWarsaw is a community led hackathon & conference in Warsaw. Join us in September 2022!">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.ethwarsaw.dev/">
+    <meta property="og:title" content="ETHWarsaw - Ethereum hackathon & conference - Sept 2022">
+    <meta property="og:description" content="ETHWarsaw is a community led hackathon & conference in Warsaw. Join us in September 2022!">
+    <meta property="og:image" content="https://i.ibb.co/cJzcFTn/ethwarsaw.jpg">
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.ethwarsaw.dev/">
+    <meta property="twitter:title" content="ETHWarsaw - Ethereum hackathon & conference - Sept 2022">
+    <meta property="twitter:description" content="ETHWarsaw is a community led hackathon & conference in Warsaw. Join us in September 2022!">
+    <meta property="twitter:image" content="https://i.ibb.co/cJzcFTn/ethwarsaw.jpg">
+
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/tickets-conf.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@200;300;400&display=swap" rel="stylesheet">
+
+    <link rel='shortcut icon' type='image/svg+xml' href='./assets/favicon.svg' />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0QF8QLL0EL"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-0QF8QLL0EL');
+    </script>
+
+</head>
+
+<body class="main">
+    <div class="header-wrapper">
+        <div class="logo-wrapper">
+            <a href="/">
+                <img class="logo" src="./assets/logo.svg" />
+            </a>
+        </div>
+        <div class="hamburger-menu-wrapper" id="hamburger-menu">
+            <img src="./assets/mobile-menu.svg" />
+        </div>
+        <div class="sections-wrapper">
+            <a href="#about" class="section">
+                About us
+            </a>
+            <a href="#meetup" class="section">
+                Meetup
+            </a>
+            <a href="./resources.html" class="section">
+                Resources
+            </a>
+            <a href="#contact" class="section">
+                Contact us
+            </a>
+        </div>
+
+    </div>
+
+    <div class="mobile-menu" id="mobile-menu">
+        <div class="mobile-menu-header">
+            <div class="logo-wrapper">
+                <a href="/">
+                    <img class="logo" src="./assets/logo.svg" />
+                </a>
+            </div>
+            <div class="mobile-menu-close-wrapper" id="mobile-menu-close">
+                <img class="mobile-menu-close" src="./assets/close.svg" />
+            </div>
+        </div>
+        <div class="mobile-menu-break"></div>
+        <div class="mobile-menu-section-wrapper">
+            <a href="#about">
+                <div class="mobile-menu-section">About us</div>
+            </a>
+            <a href="#meetup">
+                <div class="mobile-menu-section">Meetup</div>
+            </a>
+            <a href="./resources.html">
+                <div class="mobile-menu-section">Resources</div>
+            </a>
+            <a href="#contact">
+                <div class="mobile-menu-section">Contact us</div>
+            </a>
+        </div>
+    </div>
+    <div class="bar"></div>
+    <div class="tickets-conf">
+      <div class="tickets-conf-title">eth warsaw conference tickets</div>
+      <div class="tickets-buttons tickets-buttons-conf">
+        <a href="./index.html"><div class="tickets-button tickets-button-conf"><div class="bold-title">regular</div> tickets</div></a>
+        <a href="./index.html"><div class="tickets-button tickets-button-conf"><div class="bold-title">student</div> tickets</div></a>
+      </div>
+    </div>
+    <div class="footer">
+      <img class="bottom-illustration" src="./assets/bottom-illustration.svg" />
+    </div>
+  </div>
+
+</body>
+
+<script type='text/javascript'>
+    document.getElementById('mobile-menu-close').addEventListener('click', menu)
+    document.getElementById('hamburger-menu').addEventListener('click', menu)
+    function menu() {
+        var mobileMenu = document.getElementById("mobile-menu");
+        if (mobileMenu.style.display === "block") {
+            mobileMenu.style.display = "none";
+        } else {
+            mobileMenu.style.display = "block";
+        }
+    }
+</script>
+
+</html>
