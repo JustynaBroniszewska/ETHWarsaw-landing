@@ -359,6 +359,33 @@ a:active {
   margin-right: 20px;
 }
 
+.bar {
+  height: 55px;
+  min-height: 55px;
+  width: 100%;
+  background: linear-gradient(180deg, #DAFCFE 0%, #FFFFFF 100%);
+}
+
+.speakers {
+  background-color: white;
+}
+
+.speakers-main-wrapper {
+  margin-bottom: 80px;
+}
+
+.speaker-main-wrapper {
+  margin-top: 0px;
+}
+
+.speakers-title {
+  color: #5E5DC0;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+
 .contact {
   display: flex;
   flex-direction: row;

@@ -16,11 +16,6 @@
     background: linear-gradient(180deg, #DAFCFE 0%, #FFFFFF 100%);
 }
 
-.speakers-section-wrapper {
-    background: white;
-    padding-bottom: 105px;
-}
-
 .meetup-title-wrapper {
     display: flex;
     justify-content: center;
@@ -46,12 +41,6 @@
     color: #9291E4;
 }
 
-.speakers-wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
 .section-title {
     font-family: 'Helvetica Neue';
     font-style: normal;
@@ -62,64 +51,6 @@
     text-align: center;
     letter-spacing: 0.11em;
     text-transform: uppercase;
-}
-
-.speaker-wrapper {
-    margin-top: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.speaker-image {
-    box-sizing: border-box;
-    border-radius: 50%;
-    width: 125px;
-    height: 125px;
-    /* background: url(.png); */
-    /* Green */
-    
-    border: 3px solid #55EEC8;
-    overflow: hidden;
-}
-
-.speaker-src-image {
-    height: 125px;
-    width: 125px;
-}
-
-.speaker-name {
-    width: 252px;
-    height: 38px;
-
-    font-family: 'Lexend';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 150%;
-    /* or 36px */
-
-    text-align: center;
-
-    color: #000000;
-    margin-top: 22px;
-}
-
-.speaker-title {
-
-    font-family: 'Lexend';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 150%;
-    /* or 27px */
-
-    text-align: center;
-
-    color: #3F3F3F;
-}
-
-.speaker-twitter {
-    margin-top: 10px;
 }
 
 .presentations-section-wrapper {
@@ -188,18 +119,6 @@
         margin-top: 8px;
         font-size: 24px;
     }
-    
-    .speakers-wrapper {
-        flex-direction: column;
-    }
-
-    .speaker-wrapper {
-        margin-top: 50px;
-    }
-
-    .speakers-section-wrapper {
-        padding-bottom: 75px;
-    }
 
     .presentations-section-wrapper {
         padding-top: 62px;
@@ -232,14 +151,6 @@
         margin-bottom: 80px;
         margin-top: 27px;
         font-size: 38px;
-    }
-
-    .speaker-wrapper {
-        margin-top: 70px;
-    }
-
-    .speakers-section-wrapper {
-        padding-bottom: 95px;
     }
 
     .presentations-section-wrapper {
