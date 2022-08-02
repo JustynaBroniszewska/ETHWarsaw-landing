@@ -12,6 +12,7 @@
 .bar {
   height: 55px;
   width: 100%;
+  min-height: 55px;
   background: linear-gradient(180deg, #DAFCFE 0%, #FFFFFF 100%);
 }
 
@@ -35,7 +36,7 @@
   display: flex;
   justify-content: center;
   margin-top: 20px;
-  
+  text-align: center;
 }
 
 .tickets-button-conf {
