@@ -522,9 +522,16 @@ a:active {
     align-content: center;
   }
 
+  .tickets-a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .tickets-button {
     width: 95%;
-    
+    margin-left: 0px;
+    margin-right: 0px;
     margin-top: 10px;
     justify-self: center;
   }
