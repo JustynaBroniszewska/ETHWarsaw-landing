@@ -149,7 +149,6 @@ a:active {
   display: flex;
   justify-content: center;
   margin-bottom: 150px;
-
 }
 
 .tickets-button {
@@ -166,6 +165,10 @@ a:active {
   flex-direction: column;
   text-transform: uppercase;
   letter-spacing: 0.11em;
+}
+
+.tickets-button:hover {
+  background: linear-gradient(0deg, rgba(85, 238, 200, 0.3), rgba(85, 238, 200, 0.3)), #FFFFFF;
 }
 
 .tickets-button-hackathon {
