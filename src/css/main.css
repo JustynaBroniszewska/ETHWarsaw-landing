@@ -395,6 +395,81 @@ a:active {
   margin-right: 20px;
 }
 
+.venue {
+  width: 100%;
+  padding: 102px 0 0;
+  background-color: #FFFFFF;
+}
+
+.venue-wrapper {
+  width: 100%;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+.venue-title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: #5E5DC0;
+}
+
+.venue-subtitle {
+  margin: 12px auto 0;
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 500;
+  text-align: center;
+  color: #000000
+}
+
+.venue-text {
+  margin: 12px auto 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #000000;
+}
+
+.venue-map {
+  width: 100%;
+  position: relative;
+  max-width: 100%;
+  height: 432px;
+  margin: 80px auto 0;
+  padding-bottom: 102px;
+}
+
+.venue-map::before {
+  content: '';
+  position: absolute;
+  top: calc(50% - (102px / 2));
+  left: 50%;
+  width: 100vw;
+  height: calc(50% + (102px / 2));
+  transform: translateX(-50%);
+  background-color: #DAFCFE;
+  z-index: 0;
+  user-select: none;
+  pointer-events: none;
+}
+
+.venue-map-holder {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border: 5px solid #9291E4;
+  border-radius: 15px;
+  background-color: #FFFFFF;
+  overflow: hidden;
+  z-index: 2;
+}
+
 .contact {
   display: flex;
   flex-direction: row;
