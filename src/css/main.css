@@ -7,6 +7,12 @@ body {
   height: 100%;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 button {
   font-family: "Lexend";
 }
@@ -407,6 +413,13 @@ a:active {
   margin: 0 auto;
 }
 
+@media screen and (max-width: 1200px) {
+  .venue-wrapper {
+    max-width: 100%;
+    padding: 0 24px;
+  }
+}
+
 .venue-title {
   margin: 0;
   font-weight: 700;
@@ -443,6 +456,12 @@ a:active {
   height: 432px;
   margin: 80px auto 0;
   padding-bottom: 102px;
+}
+
+@media screen and (max-width: 768px) {
+  .venue-map {
+    height: 320px;
+  }
 }
 
 .venue-map::before {
