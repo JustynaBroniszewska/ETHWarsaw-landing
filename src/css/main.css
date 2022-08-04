@@ -7,6 +7,12 @@ body {
   height: 100%;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 button {
   font-family: "Lexend";
 }
@@ -393,6 +399,71 @@ a:active {
 .sponsors-logo-wrapper {
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.venue {
+  width: 100%;
+  padding: 102px 0 102px;
+  background-color: #FFFFFF;
+}
+
+.venue-wrapper {
+  width: 100%;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1200px) {
+  .venue-wrapper {
+    max-width: 100%;
+    padding: 0 24px;
+  }
+}
+
+.venue-title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: #5E5DC0;
+}
+
+.venue-subtitle {
+  margin: 12px auto 0;
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 500;
+  text-align: center;
+  color: #000000
+}
+
+.venue-text {
+  margin: 12px auto 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #000000;
+}
+
+.venue-map {
+  width: 100%;
+  max-width: 100%;
+  height: 432px;
+  margin: 80px auto 0;
+  border: 5px solid #9291E4;
+  border-radius: 15px;
+  background-color: #FFFFFF;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 768px) {
+  .venue-map {
+    height: 320px;
+  }
 }
 
 .contact {
