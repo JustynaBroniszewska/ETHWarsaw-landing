@@ -173,6 +173,7 @@ a:active {
   flex-direction: column;
   text-transform: uppercase;
   letter-spacing: 0.11em;
+  padding: 0.5em;
 }
 
 .tickets-button:hover {
@@ -276,7 +277,8 @@ a:active {
   /* or 27px */
 
   text-align: center;
-  width: 700px;
+  max-width: 700px;
+  width: 100%;
   margin-top: 20px;
 }
 
@@ -311,7 +313,8 @@ a:active {
   /* or 27px */
 
   text-align: center;
-  width: 700px;
+  max-width: 700px;
+  width: 100%;
   margin-top: 24px;
 }
 
@@ -343,6 +346,7 @@ a:active {
   text-align: center;
 
   color: #000000;
+  cursor: pointer;
 }
 
 .meetup-button {
@@ -594,7 +598,7 @@ a:active {
   .illustration {
     width: 100%;
   }
-  
+
   .tickets-buttons {
     display: flex;
     flex-direction: column;
