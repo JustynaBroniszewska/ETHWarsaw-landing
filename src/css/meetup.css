@@ -75,9 +75,6 @@
     border-radius: 50%;
     width: 125px;
     height: 125px;
-    /* background: url(.png); */
-    /* Green */
-    
     border: 3px solid #55EEC8;
     overflow: hidden;
 }
@@ -88,9 +85,6 @@
 }
 
 .speaker-name {
-    width: 252px;
-    height: 38px;
-
     font-family: 'Lexend';
     font-style: normal;
     font-weight: 600;
@@ -134,11 +128,11 @@
     flex-direction: row;
     justify-content: center;
     margin-top: 88px;
-    
 }
 
 .presentations-presentation {
-    width: 520px;
+    width: 100%;
+    max-width: 520px;
 }
 
 .presentations-image {

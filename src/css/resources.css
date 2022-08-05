@@ -27,8 +27,6 @@
     position: relative;
     background: #55EEC8;
     border-radius: 18px;
-    width: 766px;
-    height: 80px;
     font-family: 'Lexend';
     font-style: normal;
     font-weight: 400;
@@ -64,8 +62,6 @@
 
 .event-element-soon-label {
     position: absolute;
-    width: 187px;
-    height: 71px;
     left: 33px;
     transform: matrix(0.63, -0.77, 0.79, 0.62, 0, 0);
     background: white;
