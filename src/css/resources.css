@@ -10,12 +10,6 @@
     background: #DAFCFE;
 }
 
-.bar {
-    height: 55px;
-    width: 100%;
-    background: linear-gradient(180deg, #DAFCFE 0%, #FFFFFF 100%);
-}
-
 .events-list-wrapper {
     background: white;
     width: 100%;

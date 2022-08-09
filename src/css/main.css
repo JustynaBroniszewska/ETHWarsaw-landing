@@ -60,6 +60,7 @@ a:active {
   display: none;
   z-index: 2;
   position: absolute;
+  top: 0;
   width: 100%;
   background-color: #ffffff;
   padding-bottom: 4px;
@@ -736,4 +737,10 @@ a:active {
   .contact-illustration-wrapper {
     display: none;
   }
+}
+
+.bar {
+  height: 55px;
+  width: 100%;
+  background: linear-gradient(180deg, #DAFCFE 0%, #FFFFFF 100%);
 }
