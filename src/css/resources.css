@@ -11,11 +11,14 @@
 }
 
 .events-list-wrapper {
-    background: white;
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    max-width: 816px;
+    margin: 30px auto 0;
+    padding: 0 24px;
+    background: white;
 }
 
 .event-element {
@@ -27,8 +30,6 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 120%;
-    /* or 29px */
-
     display: flex;
     align-items: center;
     text-align: center;
@@ -36,9 +37,13 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 30px;
     overflow: hidden;
     border: none;
+    width: 100%;
+}
+
+.event-element + .event-element {
+    margin-top: 30px;
 }
 
 .a-event-element {
@@ -57,6 +62,33 @@
 .event-element-soon {
     background: #aaf7e3;
     color: #6e6e6e;
+}
+
+.event-element-soon::before {
+    content: "soon";
+    position: absolute;
+    left: 32px;
+    top: 0;
+    padding: 86px 4px;
+    font-family: "Lexend";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    writing-mode: vertical-lr;
+    color: #aaf7e3;
+    background-color: #ffffff;
+    transform: translate(50%, -86px) rotate(215deg);
+    z-index: 1;
+}
+
+@media screen and (max-width: 768px) {
+    .event-element-soon::before {
+        transform: translate(-50%, -76px) rotate(215deg);
+        font-size: 14px;
+        line-height: 24px;
+    }
 }
 
 .event-element-soon-label {
