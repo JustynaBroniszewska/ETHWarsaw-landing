@@ -744,3 +744,26 @@ a:active {
   width: 100%;
   background: linear-gradient(180deg, #dafcfe 0%, #ffffff 100%);
 }
+
+.about__socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  column-gap: 24px;
+  row-gap: 24px;
+  margin: 24px auto 0;
+}
+
+a.about__socials-item {
+  width: 24px;
+  height: 24px;
+  color: #9291e4;
+  cursor: pointer;
+}
+
+.about__socials-item:hover,
+.about__socials-item:focus-visible,
+.about__socials-item:active {
+  color: #9291e4;
+}
