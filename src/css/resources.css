@@ -65,32 +65,30 @@
 }
 
 .event-element-soon::before {
-    content: "";
-    position: absolute;
-    left: 32px;
-    top: 50%;
-    height: 48px;
-    width: 164px;
-    background-color: #ffffff;
-    transform: translate(-10%, -50%) rotate(310deg);
-    z-index: 1;
-}
-
-.event-element-soon::after {
     content: "soon";
     position: absolute;
     left: 32px;
-    top: 50%;
-    width: 164px;
+    top: 0;
+    padding: 86px 4px;
     font-family: "Lexend";
     font-weight: 700;
     font-size: 24px;
     line-height: 48px;
     text-align: center;
     text-transform: uppercase;
+    writing-mode: vertical-lr;
     color: #aaf7e3;
-    transform: translate(-10%, -50%) rotate(310deg);
-    z-index: 2;
+    background-color: #ffffff;
+    transform: translate(50%, -86px) rotate(215deg);
+    z-index: 1;
+}
+
+@media screen and (max-width: 768px) {
+    .event-element-soon::before {
+        transform: translate(-50%, -76px) rotate(215deg);
+        font-size: 14px;
+        line-height: 24px;
+    }
 }
 
 .event-element-soon-label {
