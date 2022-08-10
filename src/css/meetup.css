@@ -6,14 +6,14 @@
 }
 
 .header-wrapper {
-    background: #DAFCFE;
+    background: #dafcfe;
 }
 
 .bar {
     height: 55px;
     min-height: 55px;
     width: 100%;
-    background: linear-gradient(180deg, #DAFCFE 0%, #FFFFFF 100%);
+    background: linear-gradient(180deg, #dafcfe 0%, #ffffff 100%);
 }
 
 .speakers-section-wrapper {
@@ -29,7 +29,7 @@
 
 .meetup-title {
     margin-bottom: 100px;
-    font-family: 'Lexend';
+    font-family: "Lexend";
     font-style: normal;
     font-weight: 400;
     font-size: 48px;
@@ -43,7 +43,7 @@
 }
 
 .meetup-title-date {
-    color: #9291E4;
+    color: #9291e4;
 }
 
 .speakers-wrapper {
@@ -55,12 +55,12 @@
 }
 
 .section-title {
-    font-family: 'Helvetica Neue';
+    font-family: "Helvetica Neue";
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 120%;
-    color: #9291E4;
+    color: #9291e4;
     text-align: center;
     letter-spacing: 0.11em;
     text-transform: uppercase;
@@ -77,7 +77,7 @@
     border-radius: 50%;
     width: 125px;
     height: 125px;
-    border: 3px solid #55EEC8;
+    border: 3px solid #55eec8;
     overflow: hidden;
 }
 
@@ -87,7 +87,7 @@
 }
 
 .speaker-name {
-    font-family: 'Lexend';
+    font-family: "Lexend";
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
@@ -101,8 +101,7 @@
 }
 
 .speaker-title {
-
-    font-family: 'Lexend';
+    font-family: "Lexend";
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -111,7 +110,7 @@
 
     text-align: center;
 
-    color: #3F3F3F;
+    color: #3f3f3f;
 }
 
 .speaker-twitter {
@@ -119,8 +118,7 @@
 }
 
 .presentations-section-wrapper {
-
-    background: #55EEC8;
+    background: #55eec8;
     height: 660px;
     padding-top: 117px;
 }
@@ -138,8 +136,8 @@
 }
 
 .presentations-image {
-    max-width:100%;
-    max-height:100%;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .presentations-presentation-marek {
@@ -151,7 +149,7 @@
 }
 
 .presentations-download {
-    background: #9291E4;
+    background: #9291e4;
     color: white;
 }
 

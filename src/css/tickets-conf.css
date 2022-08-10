@@ -6,19 +6,19 @@
 }
 
 .header-wrapper {
-  background: #DAFCFE;
+  background: #dafcfe;
 }
 
 .bar {
   height: 55px;
   width: 100%;
   min-height: 55px;
-  background: linear-gradient(180deg, #DAFCFE 0%, #FFFFFF 100%);
+  background: linear-gradient(180deg, #dafcfe 0%, #ffffff 100%);
 }
 
 .tickets-conf {
   margin-top: 20px;
-  background: white; 
+  background: white;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -26,7 +26,7 @@
 }
 
 .tickets-conf-title {
-  font-family: 'Lexend';
+  font-family: "Lexend";
   font-style: normal;
   font-weight: 400;
   font-size: 48px;
@@ -40,7 +40,7 @@
 }
 
 .tickets-button-conf {
-  background-color: #55EEC8;
+  background-color: #55eec8;
   flex-direction: row;
   font-size: 24px;
 }

@@ -60,6 +60,7 @@ a:active {
   display: none;
   z-index: 2;
   position: absolute;
+  top: 0;
   width: 100%;
   background-color: #ffffff;
   padding-bottom: 4px;
@@ -165,7 +166,7 @@ a:active {
   width: 100%;
   max-width: 526px;
   height: 130px;
-  border: 4px solid #55EEC8;
+  border: 4px solid #55eec8;
   border-radius: 18px;
   display: flex;
   justify-content: center;
@@ -177,11 +178,11 @@ a:active {
 }
 
 .tickets-button:hover {
-  background: linear-gradient(0deg, rgba(85, 238, 200, 0.3), rgba(85, 238, 200, 0.3)), #FFFFFF;
+  background: linear-gradient(0deg, rgba(85, 238, 200, 0.3), rgba(85, 238, 200, 0.3)), #ffffff;
 }
 
 .tickets-button-hackathon {
-  background: linear-gradient(0deg, rgba(85, 238, 200, 0.3), rgba(85, 238, 200, 0.3)), #FFFFFF;
+  background: linear-gradient(0deg, rgba(85, 238, 200, 0.3), rgba(85, 238, 200, 0.3)), #ffffff;
 }
 
 .tickets-button-title {
@@ -354,7 +355,7 @@ a:active {
 }
 
 .sponsors {
-  background-color: #DAFCFE;
+  background-color: #dafcfe;
   margin-top: 150px;
 }
 
@@ -371,7 +372,7 @@ a:active {
 }
 
 .sponsors-tier-title {
-  color: #5E5DC0;
+  color: #5e5dc0;
   text-transform: uppercase;
   margin-bottom: 40px;
   display: flex;
@@ -415,7 +416,7 @@ a:active {
 .venue {
   width: 100%;
   padding: 102px 0 102px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .venue-wrapper {
@@ -433,29 +434,29 @@ a:active {
 
 .venue-title {
   margin: 0;
-  font-family: 'Helvetica Neue';
+  font-family: "Helvetica Neue";
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.11em;
   text-transform: uppercase;
-  color: #5E5DC0;
+  color: #5e5dc0;
 }
 
 .venue-subtitle {
   margin: 12px auto 0;
-  font-family: 'Lexend';
+  font-family: "Lexend";
   font-size: 22px;
   line-height: 32px;
   font-weight: 500;
   text-align: center;
-  color: #000000
+  color: #000000;
 }
 
 .venue-text {
   margin: 12px auto 0;
-  font-family: 'Lexend';
+  font-family: "Lexend";
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
@@ -468,9 +469,9 @@ a:active {
   max-width: 100%;
   height: 432px;
   margin: 80px auto 0;
-  border: 5px solid #9291E4;
+  border: 5px solid #9291e4;
   border-radius: 15px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   overflow: hidden;
 }
 
@@ -736,4 +737,10 @@ a:active {
   .contact-illustration-wrapper {
     display: none;
   }
+}
+
+.bar {
+  height: 55px;
+  width: 100%;
+  background: linear-gradient(180deg, #dafcfe 0%, #ffffff 100%);
 }
