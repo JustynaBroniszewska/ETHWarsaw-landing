@@ -144,6 +144,28 @@ a.schedule__checkout {
   }
 }
 
+.schedule__info {
+  margin: 48px 0 0;
+  font-family: "Lexend";
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #0b0e14;
+}
+
+@media screen and (max-width: 768px) {
+  .schedule__info {
+    margin-top: 32px;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .schedule__checkout-link {
+    font-size: 12px;
+  }
+}
+
 .schedule__grid {
   display: flex;
   flex-wrap: wrap;
@@ -229,7 +251,7 @@ a.schedule__checkout {
   font-family: "Lexend";
   font-size: 24px;
   line-height: 28px;
-  color: #000000;
+  color: #0b0e14;
 }
 
 .schedule__card-list-item--purple {
