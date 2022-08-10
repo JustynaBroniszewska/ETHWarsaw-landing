@@ -13,10 +13,39 @@
 }
 
 .schedule__header {
+  position: relative;
   width: 100%;
   max-width: 100%;
   padding: 36px 0;
   background-color: #ffffff;
+  overflow: hidden;
+}
+
+.schedule__header::before {
+  content: "";
+  position: absolute;
+  right: -10px;
+  bottom: 36px;
+  width: 50%;
+  height: 68px;
+  background-image: linear-gradient(270deg, #9671ff 61.45%, rgba(150, 113, 255, 0) 94.83%);
+  border-radius: 10px;
+  transform: translate(0%, 0);
+  overflow: hidden;
+  user-select: none;
+  pointer-events: none;
+}
+
+@media screen and (max-width: 1020px) {
+  .schedule__header::before {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .schedule__header::before {
+    width: calc(100% + 10px);
+  }
 }
 
 .schedule__header-row {
@@ -25,6 +54,7 @@
   flex-wrap: wrap;
   width: 100%;
   max-width: 100%;
+  row-gap: 24px;
 }
 
 .schedule__header-button {
@@ -50,13 +80,14 @@
   font-family: "Lexend";
   text-transform: uppercase;
   margin-left: 64px;
+  z-index: 1;
 }
 
 .schedule__title--bold {
   font-weight: 700;
 }
 
-.schedule__checkout {
+a.schedule__checkout {
   display: flex;
   position: relative;
   align-items: center;
@@ -65,20 +96,8 @@
   z-index: 1;
 }
 
-.schedule__checkout::before {
-  content: "";
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  width: 200%;
-  height: 68px;
-  background-image: linear-gradient(270deg, #9671ff 61.45%, rgba(150, 113, 255, 0) 94.83%);
-  border-radius: 10px;
-  transform: translate(-50%, -50%);
-  overflow: hidden;
-  user-select: none;
-  pointer-events: none;
-  z-index: -1;
+.schedule__checkout svg {
+  margin-left: 16px;
 }
 
 .schedule__checkout-text {
@@ -103,9 +122,9 @@
   cursor: pointer;
 }
 
-.schedule__checkout-link:hover,
-.schedule__checkout-link:focus-visible,
-.schedule__checkout-link:active {
+.schedule__checkout:hover,
+.schedule__checkout:focus-visible,
+.schedule__checkout:active {
   color: #dafcfe;
 }
 
@@ -118,10 +137,6 @@
     font-size: 18px;
     line-height: 32px;
     margin-left: 32px;
-  }
-
-  .schedule__checkout {
-    margin-top: 24px;
   }
 
   .schedule__checkout-link {
