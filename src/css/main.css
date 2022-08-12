@@ -376,33 +376,34 @@ a:active {
 .sponsors-tier-title {
   color: #5e5dc0;
   text-transform: uppercase;
-  margin-bottom: 40px;
+  margin-bottom: 24px;
   display: flex;
   justify-content: center;
 }
 
 .sponsors-logos-wrapper {
   display: grid;
-  justify-content: space-evenly;
-  grid-column-gap: 40px;
-  column-gap: 40px;
-  grid-row-gap: 32px;
-  row-gap: 32px;
+  justify-content: center;
+  grid-template-columns: repeat(3, auto);
+  grid-row-gap: 24px;
   margin: 0 auto;
 }
 
 .sponsors-logos-wrapper--ocean {
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, auto);
+  grid-column-gap: 80px;
 }
 
-.sponsors-logos-wrapper--sea,
+.sponsors-logos-wrapper--sea {
+  grid-column-gap: 6px;
+}
+
 .sponsors-logos-wrapper--lake {
-  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 68px;
 }
 
 .sponsors-logos-wrapper--pond {
-  grid-template-columns: repeat(2, 1fr);
-  width: fit-content;
+  grid-column-gap: 40px;
 }
 
 @media screen and (max-width: 768px) {
@@ -421,15 +422,15 @@ a:active {
 }
 
 .sponsor-logo-wrapper--ocean {
-  height: 58px;
+  height: 80px;
 }
 
 .sponsor-logo-wrapper--sea {
-  height: 48px;
+  height: 56px;
 }
 
 .sponsor-logo-wrapper--lake {
-  height: 32px;
+  height: 40px;
 }
 
 .sponsor-logo-wrapper--pond {
@@ -441,6 +442,33 @@ a:active {
   justify-content: center;
   align-items: center;
   max-width: 100%;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  mix-blend-mode: luminosity;
+  opacity: 0.5;
+  transition: all 0.25s ease;
+  cursor: pointer;
+}
+
+.sponsors-logo-wrapper:hover {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+  opacity: 1;
+  mix-blend-mode: normal;
+}
+
+.sponsors-logo-wrapper:focus-visible {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+  opacity: 1;
+  mix-blend-mode: normal;
+}
+
+.sponsors-logo-wrapper:active {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+  opacity: 1;
+  mix-blend-mode: normal;
 }
 
 .venue {
