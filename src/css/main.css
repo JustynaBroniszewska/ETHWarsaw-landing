@@ -382,38 +382,27 @@ a:active {
 }
 
 .sponsors-logos-wrapper {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  grid-template-columns: repeat(3, auto);
-  grid-row-gap: 24px;
+  row-gap: 24px;
   margin: 0 auto;
 }
 
 .sponsors-logos-wrapper--ocean {
-  grid-template-columns: repeat(2, auto);
-  grid-column-gap: 80px;
+  column-gap: 80px;
 }
 
 .sponsors-logos-wrapper--sea {
-  grid-column-gap: 6px;
+  column-gap: 6px;
 }
 
 .sponsors-logos-wrapper--lake {
-  grid-column-gap: 68px;
+  column-gap: 68px;
 }
 
 .sponsors-logos-wrapper--pond {
-  grid-column-gap: 40px;
-}
-
-@media screen and (max-width: 768px) {
-  .sponsors-logos-wrapper,
-  .sponsors-logos-wrapper--sea,
-  .sponsors-logos-wrapper--lake,
-  .sponsors-logos-wrapper--pond {
-    grid-auto-flow: row;
-    grid-template-columns: 1fr;
-  }
+  column-gap: 40px;
 }
 
 .sponsor-logo-wrapper {
