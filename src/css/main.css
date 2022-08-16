@@ -407,6 +407,11 @@ a:active {
   max-width: 496px;
 }
 
+.sponsors-logos-wrapper--media-partners {
+  column-gap: 40px;
+  max-width: 780px;
+}
+
 .sponsor-logo-wrapper {
   max-width: 100%;
   object-fit: contain;
@@ -426,6 +431,10 @@ a:active {
 
 .sponsor-logo-wrapper--pond {
   height: 32px;
+}
+
+.sponsor-logo-wrapper--media-partners {
+  height: 36px;
 }
 
 .sponsors-logo-wrapper {
@@ -460,6 +469,11 @@ a:active {
   filter: grayscale(0);
   opacity: 1;
   mix-blend-mode: normal;
+}
+
+.media-partners {
+  padding-top: 112px;
+  background-color: #99f5de;
 }
 
 .venue {
