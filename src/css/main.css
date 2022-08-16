@@ -398,11 +398,13 @@ a:active {
 }
 
 .sponsors-logos-wrapper--lake {
-  column-gap: 68px;
+  column-gap: 64px;
+  max-width: 780px;
 }
 
 .sponsors-logos-wrapper--pond {
   column-gap: 40px;
+  max-width: 496px;
 }
 
 .sponsor-logo-wrapper {
@@ -423,7 +425,7 @@ a:active {
 }
 
 .sponsor-logo-wrapper--pond {
-  height: 28px;
+  height: 32px;
 }
 
 .sponsors-logo-wrapper {
