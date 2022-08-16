@@ -9,13 +9,6 @@
   background: #dafcfe;
 }
 
-.bar {
-  height: 55px;
-  width: 100%;
-  min-height: 55px;
-  background: linear-gradient(180deg, #dafcfe 0%, #ffffff 100%);
-}
-
 .tickets-conf {
   margin-top: 20px;
   background: white;
