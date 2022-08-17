@@ -436,6 +436,14 @@ a:active {
   height: 36px;
 }
 
+.sponsor-logo-wrapper--main-university {
+  height: 60px;
+}
+
+.sponsor-logo-wrapper--university {
+  height: 36px;
+}
+
 .sponsors-logo-wrapper {
   display: flex;
   justify-content: center;
