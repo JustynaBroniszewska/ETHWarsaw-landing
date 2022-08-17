@@ -1,0 +1,498 @@
+{
+  "scheduleData": [
+    {
+      "date": "01.09.2022",
+      "mainStage": {
+        "events": [
+          {
+            "time": "10:00",
+            "title": "Conference Opening 🥳",
+            "speakers": [
+              {
+                "name": "ETHWarsaw"
+              }
+            ]
+          },
+          {
+            "time": "10:30",
+            "title": "TrueFi Keynote",
+            "speakers": [
+              {
+                "name": "Bartek Rutkowski (TrueFi)"
+              }
+            ]
+          },
+          {
+            "time": "10:45",
+            "title": "Ramp Network Keynote",
+            "speakers": [
+              {
+                "name": "Przemek Kowalczyk (Ramp)"
+              }
+            ]
+          },
+          {
+            "time": "11:00",
+            "title": "Flash EVM Oracles & Modular Warp Contracts: a novel approach to on-chain data storage.",
+            "description": "New DeFi & Web3 projects require diversified data delivered at a higher frequency to get an edge over competitors. However, the biggest bottleneck for Oracles is the high storage costs of EVM which hinder scalability. We'll present how passing data packages to transaction call data could effectively solve that issue and unlock Web3 potential 🚀 Simultaneously EVM blockchains use a monolithic architecture where recording transactions are tightly coupled with the execution layer. We’ll present an alternative approach where transaction ordering is separated from evaluation and state updates, making the architecture million times cheaper and scalable for computation & storage 💽",
+            "speakers": [
+              {
+                "name": "Jakub Wojciechowski (RedStone)"
+              }
+            ]
+          },
+          {
+            "time": "11:30",
+            "title": "Bringing a $450 Trillion TradFi market to DeFi",
+            "description": "There is one type of derivative in TradFi that accounts for 450 trillion dollars in notional value, far surpassing even the total size of the stock market. When you take any loan or make a deposit, your bank uses this derivative to manage its risk. Come to learn what this derivative is, how it works, what it is useful for, and how it’s making its way to DeFi.",
+            "speakers": [
+              {
+                "name": "Łukasz Muzyka (IPOR Labs)"
+              }
+            ]
+          },
+          {
+            "time": "12:00",
+            "title": "Discussion Panel: L2 Solutions & Scalability",
+            "description": "Panelists from Starkware, AlephZero, Scroll, ZKX",
+            "speakers": [
+              {
+                "name": "Moderated by Piotr Szlachciak (L2Beat)"
+              }
+            ]
+          },
+          {
+            "time": "13:00",
+            "title": "🥟Lunch Break"
+          },
+          {
+            "time": "14:00",
+            "title": "TBC"
+          },
+          {
+            "time": "14:30",
+            "title": "Maker as Backbone Infrastructure for DeFi",
+            "description": "Maker has gone through a long evolution over the years. In this talk I will present how I view the future of Maker and how it fits into the larger DeFi ecosystem.",
+            "speakers": [
+              {
+                "name": "Sam MacPherson (hexonaut)"
+              },
+              {
+                "name": "(MakerDAO)"
+              }
+            ]
+          },
+          {
+            "time": "15:00",
+            "title": "Discussion Panel: DAO & Governance",
+            "description": "Panelists: Julien Bouteloup, MakerDAO, BitDAO",
+            "speakers": [
+              {
+                "name": "Moderated by Nikita Cikaluk"
+              }
+            ]
+          },
+          {
+            "time": "16:00",
+            "title": "Create Frictionless Money",
+            "description": "Payment as we know has lots of frictions, with Superfluid money, it becomes truly frictionless, allowing money transferring continuously between accounts with no ongoing cost. In this talk you will learn the basics of the protocol features, how how blockchain enables it and it should also inspire you to create one from scratch!",
+            "speakers": [
+              {
+                "name": "Miao Zhicheng (Superfluid)"
+              }
+            ]
+          },
+          {
+            "time": "16:30",
+            "title": "Building Crypto Infrastructure at Scroll",
+            "description": "Scroll is building the native zkEVM (zero-knowledge-proof-based rollup with a natively Ethereum-equivalent VM) to scale the Ethereum blockchain",
+            "speakers": [
+              {
+                "name": "Orest Tarasiuk (Scroll)"
+              }
+            ]
+          },
+          {
+            "time": "17:00",
+            "title": "Discussion Panel: DeFi",
+            "description": "Panelists: Rajiv Sainani (MakerDAO), Ryan Rodenbaugh (TrueFi), Romina Bungert (Centrifuge), Christophe Fonteneau (Request Finance)",
+            "speakers": [
+              {
+                "name": "Moderated by Łukasz Stoczyński"
+              }
+            ]
+          },
+          {
+            "time": "18:00",
+            "title": "Freedom for your data",
+            "description": "Wildland is an open source technology that provides reasonably flexible data storage and powerful information management, with an Ethereum-based storage marketplace and implementing the User-Defined Organization & the GLM token in its decentralized governance component. Julian, one of the founders of Golem Foundation which is behind Wildland, will give an introduction to the technology, talk about why the team is developing it & why you might find it exciting - both as a developer and a future user.",
+            "speakers": [
+              {
+                "name": "Julian Zawistowski (Wildland)"
+              }
+            ]
+          },
+          {
+            "time": "18:30",
+            "title": "⚡️Lightning Talk Round⚡️",
+            "speakers": [
+              {
+                "name": "ETHWarsaw Community"
+              }
+            ]
+          },
+          {
+            "time": "19:00",
+            "title": "Happy Hour 🍺🍷"
+          },
+          {
+            "time": "21:00",
+            "title": "Opening Party 🎉🕺💃",
+            "speakers": [
+              {
+                "name": "Daivinity"
+              }
+            ]
+          }
+        ]
+      },
+      "workshopStage": {
+        "events": [
+          {
+            "time": "10:45",
+            "title": "Beginner Workshops: Web2 to Web3 Onboarding",
+            "description": "Perfect space for Web2 devs to start building on Web3 & beginners who want to build their first projects."
+          },
+          {
+            "time": "11:00",
+            "title": "Dapps, Smart Contracts & Blockchain - everything you wanted to know but were too afraid to ask",
+            "description": "Intro to the fundamentals of all blockchain systems and then move on to talking about Ethereum itself. I’ll go through the main elements of the system like accounts, transactions and the concept of gas. I’ll briefly talk about Smart Contracts and their application in building Decentralised Applications.",
+            "speakers": [
+              {
+                "name": "TrueFi Engineering"
+              }
+            ]
+          },
+          {
+            "time": "13:00",
+            "title": "🥟Lunch Break"
+          },
+          {
+            "time": "14:00",
+            "title": "Write & deploy your first Smart Contract on Ethereum",
+            "description": "We’ll first dive into the Solidity syntax to get comfortable reading Solidity code and soon writing some of our own! We’ll learn by examples and get to know the specifics of Smart Contract development. By the end of the workshop we’ll deploy a contract to a live testnet.",
+            "speakers": [
+              {
+                "name": "TrueFi Engineering"
+              }
+            ]
+          },
+          {
+            "time": "15:00",
+            "title": "Testing your Smart Contracts with Waffle",
+            "description": "You will go step by step through Smart Contracts development workflow - Using industry standard contracts, writing Solidity code, compiling and testing.  We will tell you about best practices and smart solutions in web3 testing.",
+            "speakers": [
+              {
+                "name": "TrueFi Engineering"
+              }
+            ]
+          },
+          {
+            "time": "16:00",
+            "title": "Build your first Decentralized App! - a frontend for your Smart Contracts",
+            "description": "During the workshop you will learn how to build decentralized applications using the React library. You'll learn how to interact with blockchain networks by building an application that will connect with contracts created at previous workshops. Additionally, you can receive a set of good practices related to building this type of applications.",
+            "speakers": [
+              {
+                "name": "TrueFi Engineering"
+              }
+            ]
+          },
+          {
+            "time": "17:00",
+            "title": "Upgradeable Smart Contracts via OpenZeppelin Defender",
+            "description": "In this workshop I will explain the concept of proxy and upgradeable smart contracts based on OpenZeppelin implementations, how to prepare migrations, how to setup Gnosis Multisig and use it in Timelock using OpenZeppelin Defender platform.",
+            "speakers": [
+              {
+                "name": "Mariusz Szpiler (IPOR Labs)"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "date": "02.09.2022",
+      "mainStage": {
+        "events": [
+          {
+            "time": "10:00",
+            "title": "Beyond ZK-SNARKs: overview of blockchain privacy paradigms",
+            "description": "For now, blockchain privacy is associated almost exclusively with ZKPs (mostly ZK-SNARKs, recently also ZK-STARKs), but in fact it is only one of privacy paradigms, which has its limitations. During the talk, I'll will present a rough framework describing what can and can not be achieved with ZKP, and then focus on other cryptographic primitives, namely, trusted execution environments (TEE), and multiparty computation (MPC), in the context of privacy on blockchain.",
+            "speakers": [
+              {
+                "name": "Adam Gągol (Aleph Zero)"
+              }
+            ]
+          },
+          {
+            "time": "10:30",
+            "title": "Workshop: Smart Contract Security ",
+            "speakers": [
+              {
+                "name": "Michał Bazyli"
+              },
+              {
+                "name": "Łukasz Mikuła (Halborn)"
+              }
+            ]
+          },
+          {
+            "time": "11:00",
+            "title": "Oh Snap! It's MetaMask! Secure plugins with arbitrary JavaScript execution",
+            "description": "MetaMask Snaps is a new feature that allows any developer to extend how the wallet operates through arbitrary JavaScript execution. Wait, in your wallet?! Yes! Snaps uses brand new tech called Secure EcmaScript, that allows us to completely confine external JavaScript, so that it can do only what we allow it to do. This talk is a deep-level technological insight into how Secure EcmaScript works behind the scenes, how you can write your own from ground up and what it takes to provide access to external resources without privilege escalation. We're going to be abusing JavaScript pretty strongly - medium to high JavaScript knowledge will be helpful.",
+            "speakers": [
+              {
+                "name": "Olaf Tomalka (Metamask)"
+              }
+            ]
+          },
+          {
+            "time": "11:30",
+            "title": "Getting on Starknet at Warp Speed",
+            "description": "Introduction to Warp 2.0 - L2 track Following Nethermind's shiny new release of Warp which transpiles Solidity to Cairo I'd like to do a brief introduction of Starknet and Cairo followed by a hands on walkthrough of deploying Solidity contracts to Starknet using Warp. The final part of the talk would be a useful developer focused overview on which Solidity constructs need to be altered in order to port large code bases. I was a lead dev on the warp project and the lead of the AAVE to Starknet Port at Nethermind.",
+            "speakers": [
+              {
+                "name": "Jorik Schellekens (Nethermind)"
+              }
+            ]
+          },
+          {
+            "time": "12:00",
+            "title": "Discussion Panel: Security",
+            "description": "Panelists: Uri Kirstein (Certora), Kacper Bąk (Quantstamp), Piotr Cielas (Halborn), Damian Rusinek (Composable Security)",
+            "speakers": [
+              {
+                "name": "Moderated by Marek Kirejczyk (TrueFi)"
+              }
+            ]
+          },
+          {
+            "time": "13:00",
+            "title": "🥟Lunch Break"
+          },
+          {
+            "time": "14:00",
+            "title": "Hacker rant on Truly Unstoppable Organizations",
+            "description": "Semi technical deep dive on potential future of DAOs and application of token-based governance systems.",
+            "speakers": [
+              {
+                "name": "Marcin Majchrzak (AngelBlock)"
+              }
+            ]
+          },
+          {
+            "time": "14:30",
+            "title": "Tips and tricks for cross-domain devs",
+            "description": "Cross-domain development raises new interesting challenges. Maintaining two sets of smart contracts that suppose to talk to each during all sorts of network conditions is not exactly trivial. There is a good reason why bridge hacks are so popular. This talk is about lessons learned from building the official DAI bridge for Optimism and Arbitrum rollups.",
+            "speakers": [
+              {
+                "name": "Kris Kaczor (L2Beat)"
+              }
+            ]
+          },
+          {
+            "time": "15:00",
+            "title": "I would like to speak about automation and the future of Web3",
+            "description": "Backend for Web3 that enables DeFi projects to offer everything from user-friendly trading strategies to infrastructure-level liquidation protection, NFT projects to automatically and randomly generate new NFTs, and much more. The potential of smart contract automation has only just begun to be explored, and this talk will shed some light on how some of the leading web3 projects are making use of this solution.",
+            "speakers": [
+              {
+                "name": "Hilmar Orth (Gelato)"
+              }
+            ]
+          },
+          {
+            "time": "15:30",
+            "title": "zkEVM march to mainnet",
+            "description": "TBA",
+            "speakers": [
+              {
+                "name": "Alex Gluchowski (ZkSync)"
+              }
+            ]
+          },
+          {
+            "time": "16:00",
+            "title": "Discussion Panel: Web3 Trends",
+            "description": "Sumit Kishore (Consensys), Ramp Network, AngelBlock, Redstone",
+            "speakers": [
+              {
+                "name": "Mod: Brian McGleenon (Yahoo Finance)"
+              }
+            ]
+          },
+          {
+            "time": "17:00",
+            "title": "Web3 actions: Scalable Web3 backend",
+            "description": "Tenderly built Web3 Actions to improve the developer experience and reduce the complexity and costs of setting up a connective layer between Smart Contracts and other components in developers' systems. In essence, Web3 Actions take away the repetitive and time-consuming infrastructural work, allowing you to focus on writing the code to respond when on-chain circumstances or certain off-chain events change. And the goal of this workshop will be to demonstrate just that!",
+            "speakers": [
+              {
+                "name": "Luka Anicin (Tenderly)"
+              }
+            ]
+          },
+          {
+            "time": "17:30",
+            "title": "🤫🤫🤫",
+            "description": "🤯🤯🤯",
+            "speakers": [
+              {
+                "name": "😎😎😎"
+              }
+            ]
+          },
+          {
+            "time": "18:00",
+            "title": "Hackathon Opening"
+          },
+          {
+            "time": "18:30",
+            "title": "Warp Contracts Opening Workshop",
+            "speakers": [
+              {
+                "name": "Arweave"
+              }
+            ]
+          }
+        ]
+      },
+      "workshopStage": {
+        "events": [
+          {
+            "time": "10:00",
+            "title": "Advanced: Security Workshops",
+            "description": "TBA",
+            "speakers": [
+              {
+                "name": "Certora"
+              }
+            ]
+          },
+          {
+            "time": "10:30",
+            "title": "Advanced: Security Workshops",
+            "description": "TBA",
+            "speakers": [
+              {
+                "name": "Certora"
+              }
+            ]
+          },
+          {
+            "time": "11:00",
+            "title": "Advanced: Security Workshops",
+            "description": "TBA",
+            "speakers": [
+              {
+                "name": "Certora"
+              }
+            ]
+          },
+          {
+            "time": "11:30",
+            "title": "Advanced: Security Workshops",
+            "description": "TBA",
+            "speakers": [
+              {
+                "name": "Certora"
+              }
+            ]
+          },
+          {
+            "time": "12:00",
+            "title": "Workshops",
+            "description": "TBA",
+            "speakers": [
+              {
+                "name": "Redstone Finance"
+              }
+            ]
+          },
+          {
+            "time": "13:00",
+            "title": "🥟Lunch Break"
+          },
+          {
+            "time": "14:00",
+            "title": "Workshops",
+            "description": "TBA",
+            "speakers": [
+              {
+                "name": "Redstone Finance"
+              }
+            ]
+          },
+          {
+            "time": "14:30",
+            "title": "Workshops",
+            "description": "TBA",
+            "speakers": [
+              {
+                "name": "Redstone Finance"
+              }
+            ]
+          },
+          {
+            "time": "15:00",
+            "title": "AlephZero & Supercolony workshop",
+            "description": "TBA",
+            "speakers": [
+              {
+                "name": "AlephZero & Supercolony"
+              }
+            ]
+          },
+          {
+            "time": "15:30",
+            "title": "AlephZero & Supercolony workshop",
+            "description": "TBA",
+            "speakers": [
+              {
+                "name": "AlephZero & Supercolony"
+              }
+            ]
+          },
+          {
+            "time": "16:00",
+            "title": "StarkWare Workshops",
+            "description": "TBA",
+            "speakers": [
+              {
+                "name": "StarkWare"
+              }
+            ]
+          },
+          {
+            "time": "17:00",
+            "title": "StarkWare Workshops",
+            "description": "TBA",
+            "speakers": [
+              {
+                "name": "StarkWare"
+              }
+            ]
+          },
+          {
+            "time": "17:30",
+            "title": "StarkWare Workshops",
+            "description": "TBA",
+            "speakers": [
+              {
+                "name": "StarkWare"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
