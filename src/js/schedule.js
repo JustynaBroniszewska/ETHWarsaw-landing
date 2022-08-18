@@ -54,7 +54,6 @@ const renderEvent = (parent, eventData) => {
       return `
         <div class="schedule__table-event-speakers">
           ${eventData.speakers.map((item) => {
-        console.log(item.name)
         return (`<span class="schedule__table-event-speaker">${item.name ?? ''}</span>`)
       })}
         </div>
