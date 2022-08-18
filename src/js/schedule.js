@@ -119,9 +119,28 @@ const renderDayTable = (date, index) => {
   scheduleTables.appendChild(dayTable)
 }
 
-const handleStageClicks = (event) => {
+const handleEventToggle = (target) => {
+  const eventItem = target.parentNode
+  eventItem.classList.toggle('schedule__table-event--active')
+}
+
+const handleTabsToggle = (target, table) => {
+  const tableTabs = table.querySelectorAll('.schedule__table-tab')
+  tableTabs.forEach((tab) => tab.classList.remove('schedule__table-tab--active'))
+  target.classList.add('schedule__table-tab--active')
+
+  const tableStages = table.querySelectorAll('.schedule__table-stage')
+  tableStages.forEach((stage) => stage.classList.remove('schedule__table-stage--active'))
+  const activeStage = table.querySelector(`.schedule__table-stage[data-schedule-stage="${target.dataset.scheduleStage}"]`)
+  activeStage.classList.add('schedule__table-stage--active')
+}
+
+const handleScheduleClicks = (event, table) => {
+  if (event.target.classList.contains('schedule__table-tab')) {
+    handleTabsToggle(event.target, table)
+  }
   if (event.target.classList.contains('schedule__table-event-button')) {
-    const
+    handleEventToggle(event.target)
   }
 }
 
@@ -134,8 +153,8 @@ fetch(`https://api.npoint.io/160e8778a2e23e1be80e`)
   }))
   .then(
     () => {
-      const stages = body.querySelectorAll('.schedule__table-stage')
-      stages.forEach((stage) => stage.addEventListener('click', (event) => handleStageClicks(event)))
+      const tables = body.querySelectorAll('.schedule__table')
+      tables.forEach((table) => table.addEventListener('click', (event) => handleScheduleClicks(event, table)))
     }
   )
 

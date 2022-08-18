@@ -306,6 +306,7 @@ a.schedule__checkout {
   line-height: 24px;
   letter-spacing: 0.11em;
   text-transform: uppercase;
+  pointer-events: none;
 }
 
 .schedule__table-event-title {
@@ -316,6 +317,7 @@ a.schedule__checkout {
   line-height: 24px;
   color: #000000;
   margin-left: 64px;
+  pointer-events: none;
 }
 
 .schedule__table-event-arrow {
@@ -324,10 +326,7 @@ a.schedule__checkout {
   max-height: 24px;
   color: #52efc6;
   margin-left: auto;
-}
-
-.schedule__table-event-arrow--active {
-  transform: scaleY(-1);
+  pointer-events: none;
 }
 
 .schedule__table-event-body {
@@ -340,6 +339,14 @@ a.schedule__checkout {
   border-radius: 0 0 18px 18px;
 }
 
-.schedule__table-event-body--active {
+.schedule__table-event:last-child .schedule__table-event-body {
+  border-bottom: none;
+}
+
+.schedule__table-event.schedule__table-event--active .schedule__table-event-arrow {
+  transform: scaleY(-1);
+}
+
+.schedule__table-event.schedule__table-event--active .schedule__table-event-body {
   display: block;
 }
