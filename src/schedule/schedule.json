@@ -463,8 +463,8 @@
           },
           {
             "time": "16:00",
-            "title": "StarkWare Workshops",
-            "description": "TBA",
+            "title": "StarkNet 101 - Introduction to Cairo smart contracts. Unleash the power of ZK-STARKs.",
+            "description": "You will learn what StarkNet is, how it works and why it's so good. We’ll introduce you to the Cairo language, StarkNet ecosystem and tools. Then, in the practical part, you’ll build and deploy your own smart contract. No prior blockchain experience required, although we assume you have some general programming knowledge.",
             "speakers": [
               {
                 "name": "StarkWare"
@@ -472,24 +472,39 @@
             ]
           },
           {
-            "time": "17:00",
-            "title": "StarkWare Workshops",
-            "description": "TBA",
-            "speakers": [
-              {
-                "name": "StarkWare"
-              }
-            ]
+            "time": "18:00",
+            "title": " Hackathon Opening"
+          }
+        ]
+      }
+    },
+    {
+      "date": "03.09.2022",
+      "mainStage": {
+        "events": [
+          {
+            "time": "10:00",
+            "title": "Full day & overnight hackathon. Agenda TBA!",
+            "description": "Expect more workshops & knowledge bombs!",
+          }
+        ]
+      }
+    },
+    {
+      "date": "04.09.2022",
+      "mainStage": {
+        "events": [
+          {
+            "time": "10:00",
+            "title": "Hackathon submissions deadline"
           },
           {
-            "time": "17:30",
-            "title": "StarkWare Workshops",
-            "description": "TBA",
-            "speakers": [
-              {
-                "name": "StarkWare"
-              }
-            ]
+            "time": "16:00",
+            "title": "Hackathon submissions deadline"
+          },
+          {
+            "time": "18:00",
+            "title": "🧜‍♀️ETHWarsaw After Party!💃"
           }
         ]
       }
