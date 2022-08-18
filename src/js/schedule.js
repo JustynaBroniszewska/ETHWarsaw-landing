@@ -144,6 +144,19 @@ const handleScheduleClicks = (event, table) => {
   }
 }
 
+const handleDayClicks = (event) => {
+  const target = event.target
+  if (target.classList.contains('schedule__day')) {
+    const dayButtons = body.querySelectorAll('.schedule__day')
+    const tables = body.querySelectorAll('.schedule__table')
+    dayButtons.forEach((button) => button.classList.remove('schedule__day--active'))
+    target.classList.add('schedule__day--active')
+    tables.forEach((table) => table.classList.remove('schedule__table--active'))
+    const activeTable = body.querySelector(`.schedule__table[data-schedule-date="${target.dataset.scheduleDate}"]`)
+    activeTable.classList.add('schedule__table--active')
+  }
+}
+
 fetch(`https://api.npoint.io/160e8778a2e23e1be80e`)
   .then((response) => response.status === 200 ? response : Promise.reject('Failed to load data for ETHWarsaw schedule.'))
   .then(response => response.json())
@@ -153,6 +166,8 @@ fetch(`https://api.npoint.io/160e8778a2e23e1be80e`)
   }))
   .then(
     () => {
+      const scheduleDays = body.querySelector('.schedule__days')
+      scheduleDays.addEventListener('click', (event) => handleDayClicks(event))
       const tables = body.querySelectorAll('.schedule__table')
       tables.forEach((table) => table.addEventListener('click', (event) => handleScheduleClicks(event, table)))
     }
