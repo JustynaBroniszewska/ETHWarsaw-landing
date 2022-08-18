@@ -286,6 +286,7 @@ a.schedule__checkout {
 .schedule__table-event-button {
   display: flex;
   align-items: center;
+  column-gap: 24px;
   width: 100%;
   min-height: 80px;
   padding: 8px 48px 8px 68px;
@@ -316,7 +317,7 @@ a.schedule__checkout {
   font-size: 20px;
   line-height: 24px;
   color: #000000;
-  margin-left: 64px;
+  margin-left: 40px;
   pointer-events: none;
 }
 
