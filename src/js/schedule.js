@@ -53,8 +53,8 @@ const renderEvent = (parent, eventData) => {
     if (eventData.speakers) {
       return `
         <div class="schedule__table-event-speakers">
-          ${eventData.speakers.map((item) => {
-        return (`<span class="schedule__table-event-speaker">${item.name ?? ''}</span>`)
+          ${eventData.speakers.map((item, index) => {
+        return (`<span class="schedule__table-event-speaker">${(index > 0) ? `&nbsp;` : ''}${item.name ?? ''}</span>`)
       })}
         </div>
       `
