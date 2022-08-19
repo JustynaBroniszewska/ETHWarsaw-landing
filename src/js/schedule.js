@@ -31,7 +31,6 @@ const renderEvent = (parent, eventData) => {
   eventItemButton.classList.add('schedule__table-event-button')
   const eventItemBody = document.createElement('div')
   eventItemBody.classList.add('schedule__table-event-body')
-  console.log('data', eventData)
   if (!eventData.speakers && !eventData.description) {
     eventItemButton.classList.add('schedule__table-event-button--disabled')
   }
@@ -173,19 +172,40 @@ const handleDayClicks = (event) => {
   }
 }
 
-fetch(`https://api.npoint.io/160e8778a2e23e1be80e`)
-  .then((response) => response.status === 200 ? response : Promise.reject('Failed to load data for ETHWarsaw schedule.'))
-  .then(response => response.json())
-  .then(json => json.scheduleData.forEach((date, index) => {
-    renderDayButton(date, index)
-    renderDayTable(date, index)
-  }))
-  .then(
-    () => {
-      const scheduleDays = body.querySelector('.schedule__days')
-      scheduleDays.addEventListener('click', (event) => handleDayClicks(event))
-      const tables = body.querySelectorAll('.schedule__table')
-      tables.forEach((table) => table.addEventListener('click', (event) => handleScheduleClicks(event, table)))
-    }
-  )
+const handleScheduleFetch = () => {
+  const scheduleDays = body.querySelector('.schedule__days')
+  const daysLoader = document.createElement('span')
+  daysLoader.classList.add('schedule__days-loader')
+  daysLoader.innerHTML = `We're trying to load the ETHWarsaw schedule...`
+  scheduleDays.querySelector('.schedule__wrapper').appendChild(daysLoader)
 
+  fetch(`https://api.npoint.io/160e8778a2e23e1be80e`)
+    .then((response) => {
+      if (response.ok) {
+        return response
+      }
+      Promise.reject('Failed to load data for ETHWarsaw schedule.')
+      throw new Error('Failed to load data for ETHWarsaw schedule')
+    })
+    .then(response => response.json())
+    .then(json => {
+      scheduleDays.querySelector('.schedule__wrapper').removeChild(daysLoader)
+      return json.scheduleData.forEach((date, index) => {
+        renderDayButton(date, index)
+        renderDayTable(date, index)
+      })
+    })
+    .then(
+      () => {
+        scheduleDays.addEventListener('click', (event) => handleDayClicks(event))
+        const tables = body.querySelectorAll('.schedule__table')
+        tables.forEach((table) => table.addEventListener('click', (event) => handleScheduleClicks(event, table)))
+      }
+    )
+    .catch((error) => {
+      daysLoader.innerHTML = `We tried to download the ETHWarsaw schedule, but something went wrong...`
+      throw new Error(error)
+    })
+}
+
+handleScheduleFetch()

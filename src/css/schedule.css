@@ -117,6 +117,7 @@ a.schedule__checkout {
 .schedule__days {
   width: 100%;
   max-width: 100%;
+  min-height: 68px;
   padding: 8px 0;
   background-color: #9671ff;
 }
@@ -384,4 +385,12 @@ a.schedule__checkout {
   width: 100%;
   height: auto;
   margin: 100px auto 0;
+}
+
+.schedule__days-loader {
+  display: block;
+  color: #ffffff;
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 400;
 }
