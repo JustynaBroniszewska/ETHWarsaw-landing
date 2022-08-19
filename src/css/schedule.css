@@ -279,10 +279,6 @@ a.schedule__checkout {
   margin-top: 24px;
 }
 
-.schedule__table-event:last-child .schedule__table-event-button {
-  border-bottom: none;
-}
-
 .schedule__table-event-button {
   display: flex;
   align-items: center;
@@ -297,6 +293,14 @@ a.schedule__checkout {
   text-align: left;
   cursor: pointer;
   overflow: hidden;
+}
+
+.schedule__table-event-button.schedule__table-event-button--disabled {
+  cursor: auto;
+}
+
+.schedule__table-event:last-child .schedule__table-event-button {
+  border-bottom: none;
 }
 
 .schedule__table-event-time {
@@ -350,4 +354,27 @@ a.schedule__checkout {
 
 .schedule__table-event.schedule__table-event--active .schedule__table-event-body {
   display: block;
+}
+
+.schedule__table-event-speaker {
+  font-family: "Lexend";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.schedule__table-event-description {
+  width: 100%;
+  margin: 24px 0 0;
+  font-family: "Lexend";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.schedule__table-event-speakers + .schedule__table-event-description {
+  padding-top: 24px;
+  border-top: 2px solid #55eec8;
 }

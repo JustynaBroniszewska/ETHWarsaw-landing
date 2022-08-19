@@ -31,6 +31,10 @@ const renderEvent = (parent, eventData) => {
   eventItemButton.classList.add('schedule__table-event-button')
   const eventItemBody = document.createElement('div')
   eventItemBody.classList.add('schedule__table-event-body')
+  console.log('data', eventData)
+  if (!eventData.speakers && !eventData.description) {
+    eventItemButton.classList.add('schedule__table-event-button--disabled')
+  }
   const eventTime = () => {
     if (eventData.time) {
       return `<span class="schedule__table-event-time">${eventData.time}</span>`
@@ -62,7 +66,7 @@ const renderEvent = (parent, eventData) => {
     return ''
   }
   const eventArrow = () => {
-    if (eventData.speakers && eventData.description) {
+    if (eventData.speakers || eventData.description) {
       return (
         `<svg class="schedule__table-event-arrow" viewBox="0 0 448 512" fill="none" color="currentColor"><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z" fill="currentColor"/></svg>`
       )
@@ -79,7 +83,7 @@ const renderEvent = (parent, eventData) => {
     ${eventDescription()}
   `
   eventItem.appendChild(eventItemButton)
-  if (eventData.speakers && eventData.description) {
+  if (eventData.speakers || eventData.description) {
     eventItem.appendChild(eventItemBody)
   }
   parent.appendChild(eventItem)
