@@ -78,13 +78,6 @@ a.schedule__checkout {
   text-transform: uppercase;
 }
 
-@media screen and (max-width: 768px) {
-  a.schedule__checkout {
-    min-width: unset;
-    margin-left: 0;
-  }
-}
-
 .schedule__checkout-bold {
   display: block;
   font-family: "Lexend";
@@ -97,10 +90,17 @@ a.schedule__checkout {
 }
 
 @media screen and (max-width: 768px) {
+  .schedule__header-row {
+    column-gap: 24px;
+  }
   .schedule__title {
     font-size: 18px;
     line-height: 32px;
-    margin-left: 32px;
+    margin-left: 0;
+  }
+  a.schedule__checkout {
+    min-width: unset;
+    margin-left: 0;
   }
 }
 
