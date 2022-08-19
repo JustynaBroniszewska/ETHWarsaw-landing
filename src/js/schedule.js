@@ -57,7 +57,7 @@ const renderEvent = (parent, eventData) => {
       return `
         <div class="schedule__table-event-speakers">
           ${eventData.speakers.map((item, index) => {
-        return (`<span class="schedule__table-event-speaker">${(index > 0) ? `&nbsp;` : ''}${item.name ?? ''}</span>`)
+        return (`<div class="schedule__table-event-speaker"><img class=schedule__table-event-speaker-image" src="${item.image}"/><span class="schedule__table-event-speaker-name">${item.name}</span></div>`)
       })}
         </div>
       `
@@ -179,7 +179,7 @@ const handleScheduleFetch = () => {
   daysLoader.innerHTML = `We're trying to load the ETHWarsaw schedule...`
   scheduleDays.querySelector('.schedule__wrapper').appendChild(daysLoader)
 
-  fetch(`https://api.npoint.io/160e8778a2e23e1be80e`)
+  fetch(`/scheduleData/schedule.json`)
     .then((response) => {
       if (response.ok) {
         return response

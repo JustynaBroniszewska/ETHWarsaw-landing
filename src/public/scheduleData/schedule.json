@@ -9,7 +9,8 @@
             "title": "Conference Opening 🥳",
             "speakers": [
               {
-                "name": "ETHWarsaw"
+                "name": "ETHWarsaw",
+                "image": "/assets/logo.svg"
               }
             ]
           },
@@ -75,10 +76,7 @@
             "description": "Maker has gone through a long evolution over the years. In this talk I will present how I view the future of Maker and how it fits into the larger DeFi ecosystem.",
             "speakers": [
               {
-                "name": "Sam MacPherson (hexonaut)"
-              },
-              {
-                "name": "(MakerDAO)"
+                "name": "Sam MacPherson (hexonaut), (MakerDAO)"
               }
             ]
           },
@@ -500,7 +498,7 @@
           },
           {
             "time": "16:00",
-            "title": "Hackathon submissions deadline"
+            "title": "Hackathon winners announcement"
           },
           {
             "time": "18:00",
