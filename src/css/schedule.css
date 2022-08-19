@@ -437,6 +437,13 @@ a.schedule__checkout {
   color: #000000;
 }
 
+@media screen and (max-width: 768px) {
+  .schedule__table-event-speaker-name {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
 .schedule__table-event-description {
   width: 100%;
   margin: 24px 0 0;
