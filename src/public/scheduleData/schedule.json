@@ -10,7 +10,7 @@
             "speakers": [
               {
                 "name": "ETHWarsaw",
-                "image": "/assets/logo.svg"
+                "image": "/scheduleData/images/ethwarsaw.svg"
               }
             ]
           },
@@ -19,7 +19,8 @@
             "title": "TrueFi Keynote",
             "speakers": [
               {
-                "name": "Bartek Rutkowski (TrueFi)"
+                "name": "Bartek Rutkowski (TrueFi)",
+                "image": "/scheduleData/images/bartek_rutkowski.jpg"
               }
             ]
           },
@@ -28,7 +29,8 @@
             "title": "Ramp Network Keynote",
             "speakers": [
               {
-                "name": "Przemek Kowalczyk (Ramp)"
+                "name": "Przemek Kowalczyk (Ramp)",
+                "image": "/scheduleData/images/przemek_kowalczyk.png"
               }
             ]
           },
@@ -38,7 +40,8 @@
             "description": "New DeFi & Web3 projects require diversified data delivered at a higher frequency to get an edge over competitors. However, the biggest bottleneck for Oracles is the high storage costs of EVM which hinder scalability. We'll present how passing data packages to transaction call data could effectively solve that issue and unlock Web3 potential 🚀 Simultaneously EVM blockchains use a monolithic architecture where recording transactions are tightly coupled with the execution layer. We’ll present an alternative approach where transaction ordering is separated from evaluation and state updates, making the architecture million times cheaper and scalable for computation & storage 💽",
             "speakers": [
               {
-                "name": "Jakub Wojciechowski (RedStone)"
+                "name": "Jakub Wojciechowski (RedStone)",
+                "image": "/scheduleData/images/jakub_wojciechowski.jpg"
               }
             ]
           },
@@ -48,7 +51,8 @@
             "description": "There is one type of derivative in TradFi that accounts for 450 trillion dollars in notional value, far surpassing even the total size of the stock market. When you take any loan or make a deposit, your bank uses this derivative to manage its risk. Come to learn what this derivative is, how it works, what it is useful for, and how it’s making its way to DeFi.",
             "speakers": [
               {
-                "name": "Łukasz Muzyka (IPOR Labs)"
+                "name": "Łukasz Muzyka (IPOR Labs)",
+                "image": "/scheduleData/images/lukasz_muzyka.png"
               }
             ]
           },
@@ -58,7 +62,8 @@
             "description": "Panelists from Starkware, AlephZero, Scroll, ZKX",
             "speakers": [
               {
-                "name": "Moderated by Piotr Szlachciak (L2Beat)"
+                "name": "Moderated by Piotr Szlachciak (L2Beat)",
+                "image": "/scheduleData/images/piotr_szlachciak.png"
               }
             ]
           },
@@ -76,7 +81,8 @@
             "description": "Maker has gone through a long evolution over the years. In this talk I will present how I view the future of Maker and how it fits into the larger DeFi ecosystem.",
             "speakers": [
               {
-                "name": "Sam MacPherson (hexonaut), (MakerDAO)"
+                "name": "Sam MacPherson (hexonaut), (MakerDAO)",
+                "image": "/scheduleData/images/sam_macpherson.jpg"
               }
             ]
           },
@@ -86,7 +92,8 @@
             "description": "Panelists: Julien Bouteloup, MakerDAO, BitDAO",
             "speakers": [
               {
-                "name": "Moderated by Nikita Cikaluk"
+                "name": "Moderated by Nikita Cikaluk",
+                "image": "/scheduleData/images/nikita_cikaluk.png"
               }
             ]
           },
@@ -96,7 +103,8 @@
             "description": "Payment as we know has lots of frictions, with Superfluid money, it becomes truly frictionless, allowing money transferring continuously between accounts with no ongoing cost. In this talk you will learn the basics of the protocol features, how how blockchain enables it and it should also inspire you to create one from scratch!",
             "speakers": [
               {
-                "name": "Miao Zhicheng (Superfluid)"
+                "name": "Miao Zhicheng (Superfluid)",
+                "image": "/scheduleData/images/miao_zhicheng.jpeg"
               }
             ]
           },
@@ -106,7 +114,8 @@
             "description": "Scroll is building the native zkEVM (zero-knowledge-proof-based rollup with a natively Ethereum-equivalent VM) to scale the Ethereum blockchain",
             "speakers": [
               {
-                "name": "Orest Tarasiuk (Scroll)"
+                "name": "Orest Tarasiuk (Scroll)",
+                "image": "/scheduleData/images/orest_tarasiuk.jpg"
               }
             ]
           },
@@ -116,7 +125,8 @@
             "description": "Panelists: Rajiv Sainani (MakerDAO), Ryan Rodenbaugh (TrueFi), Romina Bungert (Centrifuge), Christophe Fonteneau (Request Finance)",
             "speakers": [
               {
-                "name": "Moderated by Łukasz Stoczyński"
+                "name": "Moderated by Łukasz Stoczyński",
+                "image": "/scheduleData/images/lukasz_stoczynski.jpeg"
               }
             ]
           },
@@ -126,7 +136,8 @@
             "description": "Wildland is an open source technology that provides reasonably flexible data storage and powerful information management, with an Ethereum-based storage marketplace and implementing the User-Defined Organization & the GLM token in its decentralized governance component. Julian, one of the founders of Golem Foundation which is behind Wildland, will give an introduction to the technology, talk about why the team is developing it & why you might find it exciting - both as a developer and a future user.",
             "speakers": [
               {
-                "name": "Julian Zawistowski (Wildland)"
+                "name": "Julian Zawistowski (Wildland)",
+                "image": "/scheduleData/images/julian_zawistowski.jpeg"
               }
             ]
           },
@@ -135,7 +146,8 @@
             "title": "⚡️Lightning Talk Round⚡️",
             "speakers": [
               {
-                "name": "ETHWarsaw Community"
+                "name": "ETHWarsaw Community",
+                "image": "/scheduleData/images/ethwarsaw.svg"
               }
             ]
           },
@@ -148,7 +160,8 @@
             "title": "Opening Party 🎉🕺💃",
             "speakers": [
               {
-                "name": "Daivinity"
+                "name": "Daivinity",
+                "image": "/scheduleData/images/daivinity.jpeg"
               }
             ]
           }
@@ -167,7 +180,8 @@
             "description": "Intro to the fundamentals of all blockchain systems and then move on to talking about Ethereum itself. I’ll go through the main elements of the system like accounts, transactions and the concept of gas. I’ll briefly talk about Smart Contracts and their application in building Decentralised Applications.",
             "speakers": [
               {
-                "name": "TrueFi Engineering"
+                "name": "TrueFi Engineering",
+                "image": "/scheduleData/images/truefi_engineering.jpeg"
               }
             ]
           },
@@ -181,7 +195,8 @@
             "description": "We’ll first dive into the Solidity syntax to get comfortable reading Solidity code and soon writing some of our own! We’ll learn by examples and get to know the specifics of Smart Contract development. By the end of the workshop we’ll deploy a contract to a live testnet.",
             "speakers": [
               {
-                "name": "TrueFi Engineering"
+                "name": "TrueFi Engineering",
+                "image": "/scheduleData/images/truefi_engineering.jpeg"
               }
             ]
           },
@@ -191,7 +206,8 @@
             "description": "You will go step by step through Smart Contracts development workflow - Using industry standard contracts, writing Solidity code, compiling and testing.  We will tell you about best practices and smart solutions in web3 testing.",
             "speakers": [
               {
-                "name": "TrueFi Engineering"
+                "name": "TrueFi Engineering",
+                "image": "/scheduleData/images/truefi_engineering.jpeg"
               }
             ]
           },
@@ -201,7 +217,8 @@
             "description": "During the workshop you will learn how to build decentralized applications using the React library. You'll learn how to interact with blockchain networks by building an application that will connect with contracts created at previous workshops. Additionally, you can receive a set of good practices related to building this type of applications.",
             "speakers": [
               {
-                "name": "TrueFi Engineering"
+                "name": "TrueFi Engineering",
+                "image": "/scheduleData/images/truefi_engineering.jpeg"
               }
             ]
           },
@@ -211,7 +228,8 @@
             "description": "In this workshop I will explain the concept of proxy and upgradeable smart contracts based on OpenZeppelin implementations, how to prepare migrations, how to setup Gnosis Multisig and use it in Timelock using OpenZeppelin Defender platform.",
             "speakers": [
               {
-                "name": "Mariusz Szpiler (IPOR Labs)"
+                "name": "Mariusz Szpiler (IPOR Labs)",
+                "image": "/scheduleData/images/mariusz_szpiler.jpg"
               }
             ]
           }
@@ -228,7 +246,8 @@
             "description": "For now, blockchain privacy is associated almost exclusively with ZKPs (mostly ZK-SNARKs, recently also ZK-STARKs), but in fact it is only one of privacy paradigms, which has its limitations. During the talk, I'll will present a rough framework describing what can and can not be achieved with ZKP, and then focus on other cryptographic primitives, namely, trusted execution environments (TEE), and multiparty computation (MPC), in the context of privacy on blockchain.",
             "speakers": [
               {
-                "name": "Adam Gągol (Aleph Zero)"
+                "name": "Adam Gągol (Aleph Zero)",
+                "image": "/scheduleData/images/adam_gagol.png"
               }
             ]
           },
@@ -237,10 +256,12 @@
             "title": "Workshop: Smart Contract Security ",
             "speakers": [
               {
-                "name": "Michał Bazyli"
+                "name": "Michał Bazyli",
+                "image": "/scheduleData/images/michal_bazyli.jpg"
               },
               {
-                "name": "Łukasz Mikuła (Halborn)"
+                "name": "Łukasz Mikuła (Halborn)",
+                "image": "/scheduleData/images/luklasz_mikula.jpg"
               }
             ]
           },
@@ -250,7 +271,8 @@
             "description": "MetaMask Snaps is a new feature that allows any developer to extend how the wallet operates through arbitrary JavaScript execution. Wait, in your wallet?! Yes! Snaps uses brand new tech called Secure EcmaScript, that allows us to completely confine external JavaScript, so that it can do only what we allow it to do. This talk is a deep-level technological insight into how Secure EcmaScript works behind the scenes, how you can write your own from ground up and what it takes to provide access to external resources without privilege escalation. We're going to be abusing JavaScript pretty strongly - medium to high JavaScript knowledge will be helpful.",
             "speakers": [
               {
-                "name": "Olaf Tomalka (Metamask)"
+                "name": "Olaf Tomalka (Metamask)",
+                "image": "/scheduleData/images/olaf_tomalka.jpg"
               }
             ]
           },
@@ -260,8 +282,7 @@
             "description": "Introduction to Warp 2.0 - L2 track Following Nethermind's shiny new release of Warp which transpiles Solidity to Cairo I'd like to do a brief introduction of Starknet and Cairo followed by a hands on walkthrough of deploying Solidity contracts to Starknet using Warp. The final part of the talk would be a useful developer focused overview on which Solidity constructs need to be altered in order to port large code bases. I was a lead dev on the warp project and the lead of the AAVE to Starknet Port at Nethermind.",
             "speakers": [
               {
-                "name": "Jorik Schellekens (Nethermind)"
-              }
+                "name": "Jorik Schellekens (Nethermind)"              }
             ]
           },
           {
@@ -270,7 +291,8 @@
             "description": "Panelists: Uri Kirstein (Certora), Kacper Bąk (Quantstamp), Piotr Cielas (Halborn), Damian Rusinek (Composable Security)",
             "speakers": [
               {
-                "name": "Moderated by Marek Kirejczyk (TrueFi)"
+                "name": "Moderated by Marek Kirejczyk (TrueFi)",
+                "image": "/scheduleData/images/marek_kirejczyk.jpeg"
               }
             ]
           },
@@ -284,7 +306,8 @@
             "description": "Semi technical deep dive on potential future of DAOs and application of token-based governance systems.",
             "speakers": [
               {
-                "name": "Marcin Majchrzak (AngelBlock)"
+                "name": "Marcin Majchrzak (AngelBlock)",
+                "image": "/scheduleData/images/marcin_majchrzak.png"
               }
             ]
           },
@@ -294,7 +317,8 @@
             "description": "Cross-domain development raises new interesting challenges. Maintaining two sets of smart contracts that suppose to talk to each during all sorts of network conditions is not exactly trivial. There is a good reason why bridge hacks are so popular. This talk is about lessons learned from building the official DAI bridge for Optimism and Arbitrum rollups.",
             "speakers": [
               {
-                "name": "Kris Kaczor (L2Beat)"
+                "name": "Kris Kaczor (L2Beat)",
+                "image": "/scheduleData/images/kris_kaczor.png"
               }
             ]
           },
@@ -314,7 +338,8 @@
             "description": "TBA",
             "speakers": [
               {
-                "name": "Alex Gluchowski (ZkSync)"
+                "name": "Alex Gluchowski (ZkSync)",
+                "image": "/scheduleData/images/alex_gluchowski.png"
               }
             ]
           },
@@ -324,7 +349,8 @@
             "description": "Sumit Kishore (Consensys), Ramp Network, AngelBlock, Redstone",
             "speakers": [
               {
-                "name": "Mod: Brian McGleenon (Yahoo Finance)"
+                "name": "Mod: Brian McGleenon (Yahoo Finance)",
+                "image": "/scheduleData/images/brian_mcgleenon.jpeg"
               }
             ]
           },
@@ -334,7 +360,8 @@
             "description": "Tenderly built Web3 Actions to improve the developer experience and reduce the complexity and costs of setting up a connective layer between Smart Contracts and other components in developers' systems. In essence, Web3 Actions take away the repetitive and time-consuming infrastructural work, allowing you to focus on writing the code to respond when on-chain circumstances or certain off-chain events change. And the goal of this workshop will be to demonstrate just that!",
             "speakers": [
               {
-                "name": "Luka Anicin (Tenderly)"
+                "name": "Luka Anicin (Tenderly)",
+                "image": "/scheduleData/images/luka_anicin.jpg"
               }
             ]
           },
@@ -357,7 +384,8 @@
             "title": "Warp Contracts Opening Workshop",
             "speakers": [
               {
-                "name": "Arweave"
+                "name": "Arweave",
+                "image": "/scheduleData/images/arweave.jpeg"
               }
             ]
           }
@@ -371,7 +399,8 @@
             "description": "TBA",
             "speakers": [
               {
-                "name": "Certora"
+                "name": "Certora",
+                "image": "/scheduleData/images/certora.jpeg"
               }
             ]
           },
@@ -381,7 +410,8 @@
             "description": "TBA",
             "speakers": [
               {
-                "name": "Certora"
+                "name": "Certora",
+                "image": "/scheduleData/images/certora.jpeg"
               }
             ]
           },
@@ -391,7 +421,8 @@
             "description": "TBA",
             "speakers": [
               {
-                "name": "Certora"
+                "name": "Certora",
+                "image": "/scheduleData/images/certora.jpeg"
               }
             ]
           },
@@ -401,7 +432,8 @@
             "description": "TBA",
             "speakers": [
               {
-                "name": "Certora"
+                "name": "Certora",
+                "image": "/scheduleData/images/certora.jpeg"
               }
             ]
           },
@@ -411,7 +443,8 @@
             "description": "TBA",
             "speakers": [
               {
-                "name": "Redstone Finance"
+                "name": "Redstone Finance",
+                "image": "/scheduleData/images/redstone_finance.png"
               }
             ]
           },
@@ -425,7 +458,8 @@
             "description": "TBA",
             "speakers": [
               {
-                "name": "Redstone Finance"
+                "name": "Redstone Finance",
+                "image": "/scheduleData/images/redstone_finance.png"
               }
             ]
           },
@@ -435,7 +469,8 @@
             "description": "TBA",
             "speakers": [
               {
-                "name": "Redstone Finance"
+                "name": "Redstone Finance",
+                "image": "/scheduleData/images/redstone_finance.png"
               }
             ]
           },
@@ -445,7 +480,12 @@
             "description": "TBA",
             "speakers": [
               {
-                "name": "AlephZero & Supercolony"
+                "name": "AlephZero",
+                "image": "/scheduleData/images/alephzero.jpeg"
+              },
+              {
+                "name": "Supercolony",
+                "image": "/scheduleData/images/supercolony.jpeg"
               }
             ]
           },
@@ -455,7 +495,12 @@
             "description": "TBA",
             "speakers": [
               {
-                "name": "AlephZero & Supercolony"
+                "name": "AlephZero",
+                "image": "/scheduleData/images/alephzero.jpeg"
+              },
+              {
+                "name": "Supercolony",
+                "image": "/scheduleData/images/supercolony.jpeg"
               }
             ]
           },
@@ -465,13 +510,14 @@
             "description": "You will learn what StarkNet is, how it works and why it's so good. We’ll introduce you to the Cairo language, StarkNet ecosystem and tools. Then, in the practical part, you’ll build and deploy your own smart contract. No prior blockchain experience required, although we assume you have some general programming knowledge.",
             "speakers": [
               {
-                "name": "StarkWare"
+                "name": "StarkWare",
+                "image": "/scheduleData/images/starkware.png"
               }
             ]
           },
           {
             "time": "18:00",
-            "title": " Hackathon Opening"
+            "title": "Hackathon Opening"
           }
         ]
       }

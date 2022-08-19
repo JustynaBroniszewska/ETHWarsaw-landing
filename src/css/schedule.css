@@ -399,7 +399,37 @@ a.schedule__checkout {
   display: block;
 }
 
+.schedule__table-event-speakers {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 24px;
+  max-width: 100%;
+}
+
 .schedule__table-event-speaker {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  column-gap: 12px;
+}
+
+.schedule__table-event-speaker-image {
+  display: block;
+  width: 44px;
+  min-width: 44px;
+  max-width: 44px;
+  min-height: 44px;
+  max-height: 44px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 44px;
+  background-color: #ffffff;
+  border: 1px solid #55eec8;
+  overflow: hidden;
+}
+
+.schedule__table-event-speaker-name {
   font-family: "Lexend";
   font-weight: 400;
   font-size: 18px;
