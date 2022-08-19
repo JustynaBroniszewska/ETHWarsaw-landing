@@ -378,3 +378,10 @@ a.schedule__checkout {
   padding-top: 24px;
   border-top: 2px solid #55eec8;
 }
+
+.schedule__bottom-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 100px auto 0;
+}
