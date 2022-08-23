@@ -54,6 +54,16 @@
       "image": "/images/kacper_bak.png"
     },
     {
+      "name": "Łukasz Stoczyński",
+      "project": "Request Finance",
+      "socials": [
+        {
+          "twitter": "https://twitter.com/stoczek_es"
+        }
+      ],
+      "image": "/images/lukasz_stoczynski.jpg"
+    },
+    {
       "name": "Kasia Sitkiewicz",
       "socials": [
         {
