@@ -24,6 +24,16 @@
       "image": "/images/figue.jpg"
     },
     {
+      "name": "Aleksandra",
+      "project": "DAOCraft",
+      "socials": [
+        {
+          "website": "https://daocraft.cx"
+        }
+      ],
+      "image": "/images/aleksandra.JPG"
+    },
+    {
       "name": "Kacper Bąk",
       "project": "Quantstamp",
       "socials": [
@@ -32,6 +42,15 @@
         }
       ],
       "image": "/images/kacper_bak.png"
+    },
+    {
+      "name": "Kasia Sitkiewicz",
+      "socials": [
+        {
+          "twitter": "https://twitter.com/calikasia"
+        }
+      ],
+      "image": "/images/kasia_sitkiewicz.jpeg"
     },
     {
       "name": "Robert Pałuba",
@@ -54,6 +73,11 @@
       "image": "/images/uri_kirstein.jpeg"
     },
     {
+      "name": "Nadia",
+      "project": "MakerDAO",
+      "image": "/images/nadia.jpeg"
+    },
+    {
       "name": "Bartek Rutkowski",
       "project": "TrueFi",
       "socials": [
@@ -72,6 +96,16 @@
         }
       ],
       "image": "/images/przemek_kowalczyk.png"
+    },
+    {
+      "name": "Romina Bungert",
+      "project": "Centrifuge Network Foundation",
+      "socials": [
+        {
+          "website": "https://www.centrifuge.io"
+        }
+      ],
+      "image": "/images/romina_bungert.jpg"
     },
     {
       "name": "Marek Kirejczyk",
@@ -325,16 +359,6 @@
       "image": "/images/massil_achab.png"
     },
     {
-      "name": "Romina Bungert",
-      "project": "Centrifuge Network Foundation",
-      "socials": [
-        {
-          "website": "https://www.centrifuge.io"
-        }
-      ],
-      "image": "/images/romina_bungert.jpg"
-    },
-    {
       "name": "Luka Anicin",
       "project": "tenderly.co",
       "socials": [
@@ -390,11 +414,6 @@
       "image": "/images/juan.jpeg"
     },
     {
-      "name": "Nadia",
-      "project": "MakerDAO",
-      "image": "/images/nadia.jpeg"
-    },
-    {
       "name": "Francesco Andreoli",
       "project": "ConsenSys / MetaMask",
       "socials": [
@@ -403,15 +422,6 @@
         }
       ],
       "image": "/images/francesco_andreoli.jpeg"
-    },
-    {
-      "name": "Kasia Sitkiewicz",
-      "socials": [
-        {
-          "twitter": "https://twitter.com/calikasia"
-        }
-      ],
-      "image": "/images/kasia_sitkiewicz.jpeg"
     },
     {
       "name": "Piotr Duda",
@@ -441,16 +451,6 @@
         }
       ],
       "image": "/images/maciej_burno.png"
-    },
-    {
-      "name": "Aleksandra",
-      "project": "DAOCraft",
-      "socials": [
-        {
-          "website": "https://daocraft.cx"
-        }
-      ],
-      "image": "/images/aleksandra.JPG"
     },
     {
       "name": "Louis Guthmann",
