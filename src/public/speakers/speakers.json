@@ -34,6 +34,16 @@
       "image": "/images/aleksandra.JPG"
     },
     {
+      "name": "Justyna Broniszewska",
+      "project": "TrueFi",
+      "socials": [
+        {
+          "twitter": "https://twitter.com/jusbroni"
+        }
+      ],
+      "image": "/images/justyna_broniszewska.jpeg"
+    },
+    {
       "name": "Kacper Bąk",
       "project": "Quantstamp",
       "socials": [
