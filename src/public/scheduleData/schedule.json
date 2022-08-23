@@ -10,7 +10,7 @@
             "speakers": [
               {
                 "name": "ETHWarsaw",
-                "image": "/scheduleData/images/ethwarsaw.svg"
+                "image": "/images/ethwarsaw.svg"
               }
             ]
           },
@@ -20,7 +20,7 @@
             "speakers": [
               {
                 "name": "Bartek Rutkowski (TrueFi)",
-                "image": "/scheduleData/images/bartek_rutkowski.jpg"
+                "image": "/images/bartek_rutkowski.jpg"
               }
             ]
           },
@@ -30,7 +30,7 @@
             "speakers": [
               {
                 "name": "Przemek Kowalczyk (Ramp)",
-                "image": "/scheduleData/images/przemek_kowalczyk.png"
+                "image": "/images/przemek_kowalczyk.png"
               }
             ]
           },
@@ -41,7 +41,7 @@
             "speakers": [
               {
                 "name": "Jakub Wojciechowski (RedStone)",
-                "image": "/scheduleData/images/jakub_wojciechowski.jpg"
+                "image": "/images/jakub_wojciechowski.jpg"
               }
             ]
           },
@@ -52,7 +52,7 @@
             "speakers": [
               {
                 "name": "Łukasz Muzyka (IPOR Labs)",
-                "image": "/scheduleData/images/lukasz_muzyka.png"
+                "image": "/images/lukasz_muzyka.png"
               }
             ]
           },
@@ -63,7 +63,7 @@
             "speakers": [
               {
                 "name": "Moderated by Piotr Szlachciak (L2Beat)",
-                "image": "/scheduleData/images/piotr_szlachciak.png"
+                "image": "/images/piotr_szlachciak.png"
               }
             ]
           },
@@ -82,7 +82,7 @@
             "speakers": [
               {
                 "name": "Sam MacPherson (hexonaut), (MakerDAO)",
-                "image": "/scheduleData/images/sam_macpherson.jpg"
+                "image": "/images/sam_macpherson.jpg"
               }
             ]
           },
@@ -93,7 +93,7 @@
             "speakers": [
               {
                 "name": "Moderated by Nikita Cikaluk",
-                "image": "/scheduleData/images/nikita_cikaluk.png"
+                "image": "/images/nikita_cikaluk.png"
               }
             ]
           },
@@ -104,7 +104,7 @@
             "speakers": [
               {
                 "name": "Miao Zhicheng (Superfluid)",
-                "image": "/scheduleData/images/miao_zhicheng.jpeg"
+                "image": "/images/miao_zhicheng.jpeg"
               }
             ]
           },
@@ -115,7 +115,7 @@
             "speakers": [
               {
                 "name": "Orest Tarasiuk (Scroll)",
-                "image": "/scheduleData/images/orest_tarasiuk.jpg"
+                "image": "/images/orest_tarasiuk.jpg"
               }
             ]
           },
@@ -126,7 +126,7 @@
             "speakers": [
               {
                 "name": "Moderated by Łukasz Stoczyński",
-                "image": "/scheduleData/images/lukasz_stoczynski.jpeg"
+                "image": "/images/lukasz_stoczynski.jpeg"
               }
             ]
           },
@@ -137,7 +137,7 @@
             "speakers": [
               {
                 "name": "Julian Zawistowski (Wildland)",
-                "image": "/scheduleData/images/julian_zawistowski.jpeg"
+                "image": "/images/julian_zawistowski.jpeg"
               }
             ]
           },
@@ -147,7 +147,7 @@
             "speakers": [
               {
                 "name": "ETHWarsaw Community",
-                "image": "/scheduleData/images/ethwarsaw.svg"
+                "image": "/images/ethwarsaw.svg"
               }
             ]
           },
@@ -161,7 +161,7 @@
             "speakers": [
               {
                 "name": "Daivinity",
-                "image": "/scheduleData/images/daivinity.jpeg"
+                "image": "/images/daivinity.jpeg"
               }
             ]
           }
@@ -181,7 +181,7 @@
             "speakers": [
               {
                 "name": "TrueFi Engineering",
-                "image": "/scheduleData/images/truefi_engineering.jpeg"
+                "image": "/images/truefi_engineering.jpeg"
               }
             ]
           },
@@ -196,7 +196,7 @@
             "speakers": [
               {
                 "name": "TrueFi Engineering",
-                "image": "/scheduleData/images/truefi_engineering.jpeg"
+                "image": "/images/truefi_engineering.jpeg"
               }
             ]
           },
@@ -207,7 +207,7 @@
             "speakers": [
               {
                 "name": "TrueFi Engineering",
-                "image": "/scheduleData/images/truefi_engineering.jpeg"
+                "image": "/images/truefi_engineering.jpeg"
               }
             ]
           },
@@ -218,7 +218,7 @@
             "speakers": [
               {
                 "name": "TrueFi Engineering",
-                "image": "/scheduleData/images/truefi_engineering.jpeg"
+                "image": "/images/truefi_engineering.jpeg"
               }
             ]
           },
@@ -229,7 +229,7 @@
             "speakers": [
               {
                 "name": "Mariusz Szpiler (IPOR Labs)",
-                "image": "/scheduleData/images/mariusz_szpiler.jpg"
+                "image": "/images/mariusz_szpiler.jpg"
               }
             ]
           }
@@ -247,7 +247,7 @@
             "speakers": [
               {
                 "name": "Adam Gągol (Aleph Zero)",
-                "image": "/scheduleData/images/adam_gagol.png"
+                "image": "/images/adam_gagol.png"
               }
             ]
           },
@@ -257,11 +257,11 @@
             "speakers": [
               {
                 "name": "Michał Bazyli",
-                "image": "/scheduleData/images/michal_bazyli.jpg"
+                "image": "/images/michal_bazyli.jpg"
               },
               {
                 "name": "Łukasz Mikuła (Halborn)",
-                "image": "/scheduleData/images/luklasz_mikula.jpg"
+                "image": "/images/lukasz_mikula.jpg"
               }
             ]
           },
@@ -272,7 +272,7 @@
             "speakers": [
               {
                 "name": "Olaf Tomalka (Metamask)",
-                "image": "/scheduleData/images/olaf_tomalka.jpg"
+                "image": "/images/olaf_tomalka.jpg"
               }
             ]
           },
@@ -292,7 +292,7 @@
             "speakers": [
               {
                 "name": "Moderated by Marek Kirejczyk (TrueFi)",
-                "image": "/scheduleData/images/marek_kirejczyk.jpeg"
+                "image": "/images/marek_kirejczyk.jpeg"
               }
             ]
           },
@@ -307,7 +307,7 @@
             "speakers": [
               {
                 "name": "Marcin Majchrzak (AngelBlock)",
-                "image": "/scheduleData/images/marcin_majchrzak.png"
+                "image": "/images/marcin_majchrzak.png"
               }
             ]
           },
@@ -318,7 +318,7 @@
             "speakers": [
               {
                 "name": "Kris Kaczor (L2Beat)",
-                "image": "/scheduleData/images/kris_kaczor.png"
+                "image": "/images/kris_kaczor.png"
               }
             ]
           },
@@ -339,7 +339,7 @@
             "speakers": [
               {
                 "name": "Alex Gluchowski (ZkSync)",
-                "image": "/scheduleData/images/alex_gluchowski.png"
+                "image": "/images/alex_gluchowski.png"
               }
             ]
           },
@@ -350,7 +350,7 @@
             "speakers": [
               {
                 "name": "Mod: Brian McGleenon (Yahoo Finance)",
-                "image": "/scheduleData/images/brian_mcgleenon.jpeg"
+                "image": "/images/brian_mcgleenon.jpeg"
               }
             ]
           },
@@ -361,7 +361,7 @@
             "speakers": [
               {
                 "name": "Luka Anicin (Tenderly)",
-                "image": "/scheduleData/images/luka_anicin.jpg"
+                "image": "/images/luka_anicin.jpg"
               }
             ]
           },
@@ -385,7 +385,7 @@
             "speakers": [
               {
                 "name": "Arweave",
-                "image": "/scheduleData/images/arweave.jpeg"
+                "image": "/images/arweave.jpeg"
               }
             ]
           }
@@ -400,7 +400,7 @@
             "speakers": [
               {
                 "name": "Certora",
-                "image": "/scheduleData/images/certora.jpeg"
+                "image": "/images/certora.jpeg"
               }
             ]
           },
@@ -411,7 +411,7 @@
             "speakers": [
               {
                 "name": "Certora",
-                "image": "/scheduleData/images/certora.jpeg"
+                "image": "/images/certora.jpeg"
               }
             ]
           },
@@ -422,7 +422,7 @@
             "speakers": [
               {
                 "name": "Certora",
-                "image": "/scheduleData/images/certora.jpeg"
+                "image": "/images/certora.jpeg"
               }
             ]
           },
@@ -433,7 +433,7 @@
             "speakers": [
               {
                 "name": "Certora",
-                "image": "/scheduleData/images/certora.jpeg"
+                "image": "/images/certora.jpeg"
               }
             ]
           },
@@ -444,7 +444,7 @@
             "speakers": [
               {
                 "name": "Redstone Finance",
-                "image": "/scheduleData/images/redstone_finance.png"
+                "image": "/images/redstone_finance.png"
               }
             ]
           },
@@ -459,7 +459,7 @@
             "speakers": [
               {
                 "name": "Redstone Finance",
-                "image": "/scheduleData/images/redstone_finance.png"
+                "image": "/images/redstone_finance.png"
               }
             ]
           },
@@ -470,7 +470,7 @@
             "speakers": [
               {
                 "name": "Redstone Finance",
-                "image": "/scheduleData/images/redstone_finance.png"
+                "image": "/images/redstone_finance.png"
               }
             ]
           },
@@ -481,11 +481,11 @@
             "speakers": [
               {
                 "name": "AlephZero",
-                "image": "/scheduleData/images/alephzero.jpeg"
+                "image": "/images/alephzero.jpeg"
               },
               {
                 "name": "Supercolony",
-                "image": "/scheduleData/images/supercolony.jpeg"
+                "image": "/images/supercolony.jpeg"
               }
             ]
           },
@@ -496,11 +496,11 @@
             "speakers": [
               {
                 "name": "AlephZero",
-                "image": "/scheduleData/images/alephzero.jpeg"
+                "image": "/images/alephzero.jpeg"
               },
               {
                 "name": "Supercolony",
-                "image": "/scheduleData/images/supercolony.jpeg"
+                "image": "/images/supercolony.jpeg"
               }
             ]
           },
@@ -511,7 +511,7 @@
             "speakers": [
               {
                 "name": "StarkWare",
-                "image": "/scheduleData/images/starkware.png"
+                "image": "/images/starkware.png"
               }
             ]
           },
