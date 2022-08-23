@@ -1,0 +1,506 @@
+{
+  "speakers": [
+    {
+      "name": "Julien Bouteloup",
+      "project": "Stake Capital Group",
+      "socials": [
+        {
+          "twitter": "https://twitter.com/bneiluj"
+        },
+        {
+          "website": "https://stake.capital"
+        }
+      ],
+      "image": "/images/julien_bouteloup.png"
+    },
+    {
+      "name": "Figue",
+      "project": "Paladin",
+      "socials": [
+        {
+          "twitter": "https://twitter.com/Figue_me"
+        }
+      ],
+      "image": "/images/figue.jpg"
+    },
+    {
+      "name": "Aleksandra",
+      "project": "DAOCraft",
+      "socials": [
+        {
+          "website": "https://daocraft.cx"
+        }
+      ],
+      "image": "/images/aleksandra.JPG"
+    },
+    {
+      "name": "Justyna Broniszewska",
+      "project": "TrueFi",
+      "socials": [
+        {
+          "twitter": "https://twitter.com/jusbroni"
+        }
+      ],
+      "image": "/images/justyna_broniszewska.jpeg"
+    },
+    {
+      "name": "Kacper Bąk",
+      "project": "Quantstamp",
+      "socials": [
+        {
+          "website": "https://quantstamp.com"
+        }
+      ],
+      "image": "/images/kacper_bak.png"
+    },
+    {
+      "name": "Łukasz Stoczyński",
+      "project": "Request Finance",
+      "socials": [
+        {
+          "twitter": "https://twitter.com/stoczek_es"
+        }
+      ],
+      "image": "/images/lukasz_stoczynski.jpg"
+    },
+    {
+      "name": "Kasia Sitkiewicz",
+      "socials": [
+        {
+          "twitter": "https://twitter.com/calikasia"
+        }
+      ],
+      "image": "/images/kasia_sitkiewicz.jpeg"
+    },
+    {
+      "name": "Robert Pałuba",
+      "project": "0xproject",
+      "socials": [
+        {
+          "twitter": "https://twitter.com/ethwarsaw"
+        }
+      ],
+      "image": "/images/robert_paluba.jpeg"
+    },
+    {
+      "name": "Uri Kirstein",
+      "project": "Certora",
+      "socials": [
+        {
+          "twitter": "https://twitter.com/kirsteinuri"
+        }
+      ],
+      "image": "/images/uri_kirstein.jpeg"
+    },
+    {
+      "name": "Nadia",
+      "project": "MakerDAO",
+      "image": "/images/nadia.jpeg"
+    },
+    {
+      "name": "Bartek Rutkowski",
+      "project": "TrueFi",
+      "socials": [
+        {
+          "twitter": "https://twitter.com/barrutko"
+        }
+      ],
+      "image": "/images/bartek_rutkowski.jpg"
+    },
+    {
+      "name": "Przemek Kowalczyk",
+      "project": "Ramp Network",
+      "socials": [
+        {
+          "twitter": "https://twitter.com/przemekowalczyk"
+        }
+      ],
+      "image": "/images/przemek_kowalczyk.png"
+    },
+    {
+      "name": "Romina Bungert",
+      "project": "Centrifuge Network Foundation",
+      "socials": [
+        {
+          "website": "https://www.centrifuge.io"
+        }
+      ],
+      "image": "/images/romina_bungert.jpg"
+    },
+    {
+      "name": "Marek Kirejczyk",
+      "project": "TrustToken",
+      "socials": [
+        {
+          "twitter": "https://twitter.com/ethmarek"
+        }
+      ],
+      "image": "/images/marek_kirejczyk.jpeg"
+    },
+    {
+      "name": "Łukasz Muzyka",
+      "project": "IPOR",
+      "socials": [
+        {
+          "website": "https://ipor.io"
+        }
+      ],
+      "image": "/images/lukasz_muzyka.png"
+    },
+    {
+      "name": "Sam MacPherson (hexonaut)",
+      "project": "MakerDAO",
+      "socials": [
+        {
+          "twitter": "https://twitter.com/hexonaut"
+        },
+        {
+          "website": "https://makerdao.com/"
+        }
+      ],
+      "image": "/images/sam_macpherson.jpg"
+    },
+    {
+      "name": "Piotr Szlachciak",
+      "project": "L2BEAT",
+      "socials": [
+        {
+          "twitter": "https://twitter.com/l2beat"
+        }
+      ],
+      "image": "/images/piotr_szlachciak.png"
+    },
+    {
+      "name": "Paweł Łaskarzewski",
+      "project": "Synapse Network",
+      "socials": [
+        {
+          "twitter": "https://twitter.com/PawelSynapse"
+        }
+      ],
+      "image": "/images/pawel_laskarzewski.jpg"
+    },
+    {
+      "name": "Adam Gągol",
+      "project": "Aleph Zero",
+      "socials": [
+        {
+          "website": "https://alephzero.org"
+        }
+      ],
+      "image": "/images/adam_gagol.png"
+    },
+    {
+      "name": "Damian Paszkowski",
+      "project": "Oasis.app",
+      "socials": [
+        {
+          "website": "https://oasis.app"
+        }
+      ],
+      "image": "/images/damian_paszkowski.png"
+    },
+    {
+      "name": "Damian Rusinek",
+      "project": "Composable Security",
+      "socials": [
+        {
+          "twitter": "https://twitter.com/drdr_zz"
+        }
+      ],
+      "image": "/images/damian_rusinek.jpeg"
+    },
+    {
+      "name": "Sumit Kishore",
+      "project": "Consensys",
+      "socials": [
+        {
+          "twitter": "https://twitter.com/Sumit_web3"
+        }
+      ],
+      "image": "/images/sumit_kishore.jpg"
+    },
+    {
+      "name": "Olaf Tomalka",
+      "project": "MetaMask",
+      "socials": [
+        {
+          "website": "https://metamask.io/"
+        }
+      ],
+      "image": "/images/olaf_tomalka.jpg"
+    },
+    {
+      "name": "Ryan Rodenbaugh",
+      "project": "TrueFi",
+      "socials": [
+        {
+          "twitter": "https://twitter.com/ryanrodenbaugh"
+        }
+      ],
+      "image": "/images/ryan_rodenbaugh.png"
+    },
+    {
+      "name": "Jakub Wojciechowski",
+      "project": "RedStone & Warp Founder",
+      "socials": [
+        {
+          "twitter": "https://twitter.com/kuba_eth"
+        },
+        {
+          "linkedin": "https://www.linkedin.com/in/jakub-wojciechowski-5901b68/"
+        }
+      ],
+      "image": "/images/jakub_wojciechowski.jpg"
+    },
+    {
+      "name": "Christophe Fonteneau",
+      "project": "Request Finance",
+      "socials": [
+        {
+          "website": "https://www.request.finance"
+        }
+      ],
+      "image": "/images/christophe_fonteneau.jpeg"
+    },
+    {
+      "name": "Bartosz Rybarski",
+      "project": "StarkNet",
+      "socials": [
+        {
+          "twitter": "https://twitter.com/bartekryba"
+        }
+      ],
+      "image": "/images/bartosz_rybarski.jpg"
+    },
+    {
+      "name": "Orest Tarasiuk",
+      "project": "Scroll: The native zkEVM",
+      "socials": [
+        {
+          "twitter": "https://twitter.com/OrestTa"
+        }
+      ],
+      "image": "/images/orest_tarasiuk.jpg"
+    },
+    {
+      "name": "Vitaly Yakovlev",
+      "project": "ZKX",
+      "socials": [
+        {
+          "website": "https://zkx.fi"
+        }
+      ],
+      "image": "/images/vitaly_yakovlev.jpeg"
+    },
+    {
+      "name": "Miao Zhicheng ",
+      "project": "Superfluid ",
+      "socials": [
+        {
+          "linkedin": "https://www.linkedin.com/in/miaozc/"
+        }
+      ],
+      "image": "/images/miao_zhicheng.jpeg"
+    },
+    {
+      "name": "Kresimir Vuksan",
+      "project": "Moralis",
+      "socials": [
+        {
+          "website": "https://moralis.io"
+        }
+      ],
+      "image": "/images/kresimir_vuksan.jpg"
+    },
+    {
+      "name": "Niclas Hallgren",
+      "project": "Moralis",
+      "socials": [
+        {
+          "website": "https://moralis.io"
+        }
+      ],
+      "image": "/images/niclas_hallgren.jpg"
+    },
+    {
+      "name": "Yacine Badiss",
+      "project": "Ledger",
+      "socials": [
+        {
+          "twitter": "https://twitter.com/YBadiss"
+        },
+        {
+          "website": "https://ledger.fr"
+        }
+      ],
+      "image": "/images/yacine_badiss.jpeg"
+    },
+    {
+      "name": "Michal Bazyli",
+      "project": "Halborn",
+      "socials": [
+        {
+          "website": "https://halborn.com"
+        }
+      ],
+      "image": "/images/michal_bazyli.jpg"
+    },
+    {
+      "name": "Jorik Schellekens",
+      "project": "Nethermind"
+    },
+    {
+      "name": "Hilmar Orth",
+      "project": "Gelato",
+      "image": "/images/hilmar_orth.jpg"
+    },
+    {
+      "name": "Julian Zawistowski",
+      "project": "Wildland",
+      "socials": [
+        {
+          "twitter": "https://twitter.com/julianzawist"
+        }
+      ],
+      "image": "/images/julian_zawistowski.jpeg"
+    },
+    {
+      "name": "Massil Achab",
+      "project": "Nethermind ",
+      "socials": [
+        {
+          "website": "https://github.com/aave-starknet-project/aave-starknet-core"
+        },
+        {
+          "linkedin": "https://www.linkedin.com/in/massil-achab-b19b3b20"
+        }
+      ],
+      "image": "/images/massil_achab.png"
+    },
+    {
+      "name": "Luka Anicin",
+      "project": "tenderly.co",
+      "socials": [
+        {
+          "linkedin": "https://www.linkedin.com/in/luka-anicin/"
+        }
+      ],
+      "image": "/images/luka_anicin.jpg"
+    },
+    {
+      "name": "Kris Kaczor",
+      "project": "L2BEAT",
+      "socials": [
+        {
+          "twitter": "https://twitter.com/krzkaczor"
+        }
+      ],
+      "image": "/images/kris_kaczor.png"
+    },
+    {
+      "name": "Brian McGleenon",
+      "project": "Yahoo Finance`s The Crypto Mile",
+      "image": "/images/brian_mcgleenon.jpeg"
+    },
+    {
+      "name": "Marcin Majchrzak",
+      "project": "AngelBlock",
+      "socials": [
+        {
+          "website": "https://angelblock.io"
+        }
+      ],
+      "image": "/images/marcin_majchrzak.png"
+    },
+    {
+      "name": "Stani Kulechov",
+      "project": "CEO: Aave Companies",
+      "socials": [
+        {
+          "twitter": "https://twitter.com/StaniKulechov"
+        }
+      ],
+      "image": "/images/stani_kulechov.jpeg"
+    },
+    {
+      "name": "Juan",
+      "project": "MakerDAO / DAO Craft",
+      "socials": [
+        {
+          "twitter": "https://twitter.com/0x7u4n"
+        }
+      ],
+      "image": "/images/juan.jpeg"
+    },
+    {
+      "name": "Francesco Andreoli",
+      "project": "ConsenSys / MetaMask",
+      "socials": [
+        {
+          "twitter": "https://twitter.com/francescoswiss"
+        }
+      ],
+      "image": "/images/francesco_andreoli.jpeg"
+    },
+    {
+      "name": "Piotr Duda",
+      "project": "DeltaPrime",
+      "socials": [
+        {
+          "linkedin": "https://www.linkedin.com/in/piotr-duda-62b66b63/"
+        }
+      ],
+      "image": "/images/piotr_duda.jpg"
+    },
+    {
+      "name": "Mathieu",
+      "socials": [
+        {
+          "twitter": "https://twitter.com/productmatt_"
+        }
+      ],
+      "image": "/images/mathieu.png"
+    },
+    {
+      "name": "Maciej Burno",
+      "project": "Reality Metaverse",
+      "socials": [
+        {
+          "website": "https://nft.reality.co/"
+        }
+      ],
+      "image": "/images/maciej_burno.png"
+    },
+    {
+      "name": "Louis Guthmann",
+      "project": "Starkware",
+      "socials": [
+        {
+          "website": "https://Starkware.co"
+        }
+      ],
+      "image": "/images/louis_guthmann.jpeg"
+    },
+    {
+      "name": "Chris Perdek",
+      "project": "Uniqly.io",
+      "socials": [
+        {
+          "website": "https://uniqly.io/"
+        }
+      ],
+      "image": "/images/chris_perdek.png"
+    },
+    {
+      "name": "Nikita Cikaluk",
+      "project": "Forbes web3 Writer",
+      "socials": [
+        {
+          "twitter": "https://twitter.com/cikaluk_n"
+        }
+      ],
+      "image": "/images/nikita_cikaluk.png"
+    }
+  ]
+}
