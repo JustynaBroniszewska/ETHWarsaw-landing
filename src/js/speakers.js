@@ -51,7 +51,7 @@ const renderSpeaker = (speaker, parent) => {
   }
 
   speakerItem.innerHTML = `
-    <img class="speaker__image" src="${speaker.image ?? '/images/speaker_placeholder.svg'}" alt="${speaker.name + ' ' ?? ''}image"/>
+    <img class="speaker__image" src="${speaker.image ?? '/images/speaker_placeholder.svg'}" alt="${speaker.name + ' ' ?? ''}image" loading="lazy" decoding="async"/>
     ${renderSpeakerName(speaker.name)}
     ${renderSpeakeProject(speaker.project)}
   `
