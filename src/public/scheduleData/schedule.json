@@ -117,8 +117,8 @@
           },
           {
             "time": "16:30",
-            "title": "Building Crypto Infrastructure at Scroll",
-            "description": "Scroll is building the native zkEVM (zero-knowledge-proof-based rollup with a natively Ethereum-equivalent VM) to scale the Ethereum blockchain",
+            "title": "Scaling Ethereum with rollups and zero-knowledge-proofs",
+            "description": "Orest will share his personal story of diving deep into the intrinsics of crypto – and gradually making zero-knowledge rollups his new profession. He will give a beginner-friendly introduction to the security-decentralisation-scalability trilemma faced by blockchains and outline how Ethereum hopes to resolve its scalability sacrifice with layer 2 solutions. Finally, he’ll explain why he chose zero-knowledge-proof-based rollups as his favourite tech towards that goal, and at what cost they come. Orest is a computer scientist currently working in crypto, but was founder-CTO in the more traditional mHealth sector in his previous life.",
             "speakers": [
               {
                 "name": "Orest Tarasiuk (Scroll)",
