@@ -324,19 +324,6 @@
       "image": "/images/niclas_hallgren.jpg"
     },
     {
-      "name": "Yacine Badiss",
-      "project": "Ledger",
-      "socials": [
-        {
-          "twitter": "https://twitter.com/YBadiss"
-        },
-        {
-          "website": "https://ledger.fr"
-        }
-      ],
-      "image": "/images/yacine_badiss.jpeg"
-    },
-    {
       "name": "Michal Bazyli",
       "project": "Halborn",
       "socials": [
