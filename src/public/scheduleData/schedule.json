@@ -110,8 +110,8 @@
           },
           {
             "time": "16:30",
-            "title": "Building Crypto Infrastructure at Scroll",
-            "description": "Scroll is building the native zkEVM (zero-knowledge-proof-based rollup with a natively Ethereum-equivalent VM) to scale the Ethereum blockchain",
+            "title": "Scaling Ethereum with rollups and zero-knowledge-proofs",
+            "description": "Orest will share his personal story of diving deep into the intrinsics of crypto – and gradually making zero-knowledge rollups his new profession. He will give a beginner-friendly introduction to the security-decentralisation-scalability trilemma faced by blockchains and outline how Ethereum hopes to resolve its scalability sacrifice with layer 2 solutions. Finally, he’ll explain why he chose zero-knowledge-proof-based rollups as his favourite tech towards that goal, and at what cost they come. Orest is a computer scientist currently working in crypto, but was founder-CTO in the more traditional mHealth sector in his previous life.",
             "speakers": [
               {
                 "name": "Orest Tarasiuk (Scroll)",
@@ -282,7 +282,8 @@
             "description": "Introduction to Warp 2.0 - L2 track Following Nethermind's shiny new release of Warp which transpiles Solidity to Cairo I'd like to do a brief introduction of Starknet and Cairo followed by a hands on walkthrough of deploying Solidity contracts to Starknet using Warp. The final part of the talk would be a useful developer focused overview on which Solidity constructs need to be altered in order to port large code bases. I was a lead dev on the warp project and the lead of the AAVE to Starknet Port at Nethermind.",
             "speakers": [
               {
-                "name": "Jorik Schellekens (Nethermind)"              }
+                "name": "Jorik Schellekens (Nethermind)"
+              }
             ]
           },
           {
