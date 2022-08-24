@@ -73,7 +73,14 @@
           },
           {
             "time": "14:00",
-            "title": "TBC"
+            "title": "Introduction to Arweave and the Permaweb",
+            "description": "In this talk, Arweave COO Sebastian Campos Groth will be going over what Arweave is, including it's unique value proposition of permanent storage, scalability, use cases, and affordability. The talk will be non-technical and focus on the core concepts of the Arweave protocol and it's implications in Web 3.0.",
+            "speakers": [
+              {
+                "name": "Sebastian Campos Groth (Arweave)",
+                "image": "/images/sebastian_campos.jpeg"
+              }
+            ]
           },
           {
             "time": "14:30",
@@ -223,13 +230,24 @@
             ]
           },
           {
+            "time": "16:30",
+            "title": "TBA",
+            "description": "TBA",
+            "speakers": [
+              {
+                "name": "Ramp Network",
+                "image": "/images/ramp_network.png"
+              }
+            ]
+          },
+          {
             "time": "17:00",
             "title": "Upgradeable Smart Contracts via OpenZeppelin Defender",
             "description": "In this workshop I will explain the concept of proxy and upgradeable smart contracts based on OpenZeppelin implementations, how to prepare migrations, how to setup Gnosis Multisig and use it in Timelock using OpenZeppelin Defender platform.",
             "speakers": [
               {
-                "name": "Mariusz Szpiler (IPOR Labs)",
-                "image": "/images/mariusz_szpiler.jpg"
+                "name": "IPOR Labs",
+                "image": "/images/ipor_labs.jpeg"
               }
             ]
           }
@@ -282,7 +300,8 @@
             "description": "Introduction to Warp 2.0 - L2 track Following Nethermind's shiny new release of Warp which transpiles Solidity to Cairo I'd like to do a brief introduction of Starknet and Cairo followed by a hands on walkthrough of deploying Solidity contracts to Starknet using Warp. The final part of the talk would be a useful developer focused overview on which Solidity constructs need to be altered in order to port large code bases. I was a lead dev on the warp project and the lead of the AAVE to Starknet Port at Nethermind.",
             "speakers": [
               {
-                "name": "Jorik Schellekens (Nethermind)"              }
+                "name": "Jorik Schellekens (Nethermind)"
+              }
             ]
           },
           {
@@ -324,11 +343,12 @@
           },
           {
             "time": "15:00",
-            "title": "I would like to speak about automation and the future of Web3",
-            "description": "Backend for Web3 that enables DeFi projects to offer everything from user-friendly trading strategies to infrastructure-level liquidation protection, NFT projects to automatically and randomly generate new NFTs, and much more. The potential of smart contract automation has only just begun to be explored, and this talk will shed some light on how some of the leading web3 projects are making use of this solution.",
+            "title": "How to automate your smart contracts using off-chain data & computation",
+            "description": "Smart contract automation has been one of the key innovations for the DeFi space. We have only just scratched the surface of automation's potential in DeFi , from user-friendly trading strategies to infrastructure-level liquidation protection. The next step is being able to integrate off-chain data into smart contract automation, enabling projects to automatically trigger actions when specified real-world conditions are met. Gelato Network is Web3's premier automation network, enabling developers to automate a wide variety of arbitrary smart contract executions on and across all EVM-compatible blockchains. Examples of use cases developers have built on top of Gelato include Limit Orders on AMMs like Uniswap, automatic compounding of yield farming vaults, Aave liquidation protection, MakerDAO debt ceiling updates, automated liquidity management, and even the petting of Aavegotchis.",
             "speakers": [
               {
-                "name": "Hilmar Orth (Gelato)"
+                "name": "Hilmar Orth (Gelato)",
+                "image": "/images/hilmar_orth.jpg"
               }
             ]
           },
@@ -395,56 +415,12 @@
         "events": [
           {
             "time": "10:00",
-            "title": "Advanced: Security Workshops",
-            "description": "TBA",
+            "title": "Finding bugs with formal verification",
+            "description": "In this workshop you will learn about the Certora prover and how useful it is for catching bugs. We will briefly explain how it works, and then you’ll get some hands-on experience in writing your first formal verification rules and running them. Please register here: https://www.certora.com/events/ethwarsaw-certora-workshop/ Installation guide: https://docs.google.com/document/d/1XvHLZlPzdu_Ju7FpjoFKh51UFmvcP1lhH3ib0fzHuN8/edit?usp=sharing",
             "speakers": [
               {
                 "name": "Certora",
                 "image": "/images/certora.jpeg"
-              }
-            ]
-          },
-          {
-            "time": "10:30",
-            "title": "Advanced: Security Workshops",
-            "description": "TBA",
-            "speakers": [
-              {
-                "name": "Certora",
-                "image": "/images/certora.jpeg"
-              }
-            ]
-          },
-          {
-            "time": "11:00",
-            "title": "Advanced: Security Workshops",
-            "description": "TBA",
-            "speakers": [
-              {
-                "name": "Certora",
-                "image": "/images/certora.jpeg"
-              }
-            ]
-          },
-          {
-            "time": "11:30",
-            "title": "Advanced: Security Workshops",
-            "description": "TBA",
-            "speakers": [
-              {
-                "name": "Certora",
-                "image": "/images/certora.jpeg"
-              }
-            ]
-          },
-          {
-            "time": "12:00",
-            "title": "Workshops",
-            "description": "TBA",
-            "speakers": [
-              {
-                "name": "Redstone Finance",
-                "image": "/images/redstone_finance.png"
               }
             ]
           },
@@ -454,17 +430,6 @@
           },
           {
             "time": "14:00",
-            "title": "Workshops",
-            "description": "TBA",
-            "speakers": [
-              {
-                "name": "Redstone Finance",
-                "image": "/images/redstone_finance.png"
-              }
-            ]
-          },
-          {
-            "time": "14:30",
             "title": "Workshops",
             "description": "TBA",
             "speakers": [
@@ -527,9 +492,24 @@
       "mainStage": {
         "events": [
           {
+            "time": "09:00",
+            "title": "Breakfast with hackers"
+          },
+          {
             "time": "10:00",
-            "title": "Full day & overnight hackathon. Agenda TBA!",
-            "description": "Expect more workshops & knowledge bombs!"
+            "title": "Open Mic session"
+          },
+          {
+            "time": "13:00",
+            "title": "🥟Lunch with Stani Kulechov (👻AAVE)"
+          },
+          {
+            "time": "14:00",
+            "title": "Open Mic session"
+          },
+          {
+            "time": "Overnight",
+            "title": "🛠 Overnight hacking session"
           }
         ]
       }
@@ -548,7 +528,7 @@
           },
           {
             "time": "18:00",
-            "title": "🧜‍♀️ETHWarsaw After Party!💃"
+            "title": "🧜‍♀️TrueFi x Ramp x ETHWarsaw After Party!💃"
           }
         ]
       }
