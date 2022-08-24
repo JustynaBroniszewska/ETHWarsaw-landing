@@ -26,7 +26,8 @@ a:visited {
   color: #000000;
 }
 
-a:hover {
+a:hover,
+a:focus-visible {
   text-decoration: none;
   color: #9291e4;
 }
@@ -177,8 +178,10 @@ a:active {
   padding: 0.5em;
 }
 
-.tickets-button:hover {
+.tickets-button:hover,
+.tickets-button:focus-visible {
   background: linear-gradient(0deg, rgba(85, 238, 200, 0.3), rgba(85, 238, 200, 0.3)), #ffffff;
+  color: #9291e4;
 }
 
 .tickets-button-hackathon {
@@ -250,6 +253,12 @@ a:active {
   box-sizing: border-box;
   border-radius: 10px;
   background: #ffffff;
+}
+
+.button:hover,
+.button:focus-visible {
+  background: linear-gradient(0deg, rgba(85, 238, 200, 0.3), rgba(85, 238, 200, 0.3)), #ffffff;
+  color: #9291e4;
 }
 
 .about {
@@ -348,6 +357,16 @@ a:active {
 
   color: #000000;
   cursor: pointer;
+}
+
+.green-button:hover,
+.green-button:focus-visible {
+  background-color: #8affe2;
+}
+
+.green-button:active {
+  background-color: #12daa8;
+  border-color: #12daa8;
 }
 
 .meetup-button {
@@ -458,7 +477,8 @@ a:active {
   cursor: pointer;
 }
 
-.sponsors-logo-wrapper:hover {
+.sponsors-logo-wrapper:hover,
+.sponsor-logo-wrapper:focus-visible {
   -webkit-filter: grayscale(0);
   filter: grayscale(0);
   opacity: 1;

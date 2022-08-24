@@ -168,7 +168,8 @@ a.schedule__checkout {
   }
 }
 
-.schedule__day:hover {
+.schedule__day:hover,
+.schedule__day:focus-visible {
   border-color: #c3aeff;
 }
 
