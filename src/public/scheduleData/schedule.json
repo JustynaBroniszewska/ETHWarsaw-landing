@@ -416,7 +416,7 @@
           {
             "time": "10:00",
             "title": "Finding bugs with formal verification",
-            "description": "In this workshop you will learn about the Certora prover and how useful it is for catching bugs. We will briefly explain how it works, and then you’ll get some hands-on experience in writing your first formal verification rules and running them. Please register here: https://www.certora.com/events/ethwarsaw-certora-workshop/ Installation guide: https://docs.google.com/document/d/1XvHLZlPzdu_Ju7FpjoFKh51UFmvcP1lhH3ib0fzHuN8/edit?usp=sharing",
+            "description": "In this workshop you will learn about the Certora prover and how useful it is for catching bugs. We will briefly explain how it works, and then you’ll get some hands-on experience in writing your first formal verification rules and running them. Please register here: <a href='https://www.certora.com/events/ethwarsaw-certora-workshop/' target='_blank' rel='noopener noreferrer'>https://www.certora.com/events/ethwarsaw-certora-workshop/</a> Installation guide: <a href='https://docs.google.com/document/d/1XvHLZlPzdu_Ju7FpjoFKh51UFmvcP1lhH3ib0fzHuN8/edit?usp=sharing' target='_blank' rel='noopener noreferrer'>https://docs.google.com/document/d/1XvHLZlPzdu_Ju7FpjoFKh51UFmvcP1lhH3ib0fzHuN8/edit?usp=sharing</a>",
             "speakers": [
               {
                 "name": "Certora",
@@ -508,7 +508,7 @@
             "title": "Open Mic session"
           },
           {
-            "time": "Overnight",
+            "time": "🌙",
             "title": "🛠 Overnight hacking session"
           }
         ]
