@@ -430,8 +430,8 @@
           },
           {
             "time": "14:00",
-            "title": "Workshops",
-            "description": "TBA",
+            "title": "Hackathon oracle integration with a few lines of code & deploying modular smart contracts on Arweave (Workshop)",
+            "description": "Storage-less oracles could become a game-changer for Web3, offering better scalability and shorter data refresh intervals. Simultaneously, modular smart-contract architecture is one of the hottest topics in recent weeks. At this workshop, you'll learn how to integrate Oracle data on a hackathon and how to implement Warp Contracts on top of the Arweave storage chain, allowing you to create unique hackathon projects with heavy data processing requirements.</br></br><a href='https://redstone.finance/' target='_blank' rel='noopener noreferrer'>redstone.finance</a>, </br><a href='https://warp.cc/' target='_blank' rel='noopener noreferrer'>warp.cc</a>",
             "speakers": [
               {
                 "name": "Redstone Finance",
