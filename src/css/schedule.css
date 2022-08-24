@@ -352,6 +352,7 @@ a.schedule__checkout {
   letter-spacing: 0.11em;
   text-transform: uppercase;
   pointer-events: none;
+  min-width: 64px;
 }
 
 .schedule__table-event-title {
@@ -441,6 +442,9 @@ a.schedule__checkout {
   .schedule__table-event-speaker-name {
     font-size: 14px;
     line-height: 18px;
+  }
+  .schedule__table-event-time {
+    min-width: 52px;
   }
 }
 
