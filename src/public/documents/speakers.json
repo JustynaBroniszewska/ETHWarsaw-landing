@@ -348,7 +348,7 @@
           "twitter": "https://twitter.com/mempoolsurfer"
         }
       ],
-      "image": "/images/jorik_schellekens.jpeg"
+      "image": "/public/images/jorik_schellekens.jpeg"
     },
     {
       "name": "Hilmar Orth",
@@ -510,12 +510,12 @@
           "website": "https://www.elympics.cc"
         }
       ],
-      "image": "/images/michal_dabrowski.jpg"
+      "image": "/public/images/michal_dabrowski.jpg"
     },
     {
       "name": "Paweł “Pepesza” Peregud",
       "project": "Wildland",
-      "image": "/images/pawel_peregud.jpeg"
+      "image": "/public/images/pawel_peregud.jpeg"
     },
     {
       "name": "Wojtek",
