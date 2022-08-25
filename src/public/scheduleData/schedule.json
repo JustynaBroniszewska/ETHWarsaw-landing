@@ -300,7 +300,8 @@
             "description": "Introduction to Warp 2.0 - L2 track Following Nethermind's shiny new release of Warp which transpiles Solidity to Cairo I'd like to do a brief introduction of Starknet and Cairo followed by a hands on walkthrough of deploying Solidity contracts to Starknet using Warp. The final part of the talk would be a useful developer focused overview on which Solidity constructs need to be altered in order to port large code bases. I was a lead dev on the warp project and the lead of the AAVE to Starknet Port at Nethermind.",
             "speakers": [
               {
-                "name": "Jorik Schellekens (Nethermind)"
+                "name": "Jorik Schellekens (Nethermind)",
+                "image": "/images/jorik_schellekens.jpeg"
               }
             ]
           },

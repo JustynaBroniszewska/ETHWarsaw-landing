@@ -335,7 +335,16 @@
     },
     {
       "name": "Jorik Schellekens",
-      "project": "Nethermind"
+      "project": "Nethermind",
+      "socials": [
+        {
+          "website": "https://github.com/NethermindEth/warp"
+        },
+        {
+          "twitter": "https://twitter.com/mempoolsurfer"
+        }
+      ],
+      "image": "/images/jorik_schellekens.jpeg"
     },
     {
       "name": "Hilmar Orth",
