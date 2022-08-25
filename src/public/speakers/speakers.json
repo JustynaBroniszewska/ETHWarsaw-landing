@@ -39,6 +39,9 @@
       "socials": [
         {
           "twitter": "https://twitter.com/jusbroni"
+        },
+        {
+          "website": "https://truefi.io/"
         }
       ],
       "image": "/images/justyna_broniszewska.jpeg"
@@ -103,6 +106,9 @@
       "socials": [
         {
           "twitter": "https://twitter.com/barrutko"
+        },
+        {
+          "website": "https://truefi.io/"
         }
       ],
       "image": "/images/bartek_rutkowski.jpg"
@@ -213,11 +219,6 @@
     {
       "name": "Sumit Kishore",
       "project": "Consensys",
-      "socials": [
-        {
-          "twitter": "https://twitter.com/Sumit_web3"
-        }
-      ],
       "image": "/images/sumit_kishore.jpg"
     },
     {
@@ -226,6 +227,9 @@
       "socials": [
         {
           "website": "https://metamask.io/"
+        },
+        {
+          "twitter": "https://twitter.com/ritave"
         }
       ],
       "image": "/images/olaf_tomalka.jpg"
@@ -497,6 +501,31 @@
         }
       ],
       "image": "/images/nikita_cikaluk.png"
+    },
+    {
+      "name": "Michał Dąbrowski",
+      "project": "Elympics",
+      "socials": [
+        {
+          "website": "https://www.elympics.cc"
+        }
+      ],
+      "image": "/images/michal_dabrowski.jpg"
+    },
+    {
+      "name": "Paweł “Pepesza” Peregud",
+      "project": "Wildland",
+      "image": "/images/pawel_peregud.jpeg"
+    },
+    {
+      "name": "Wojtek",
+      "project": "mazury.xyz",
+      "socials": [
+        {
+          "website": "https://wojtek.wtf/"
+        }
+      ],
+      "image": "/images/wojtek.png"
     }
   ]
 }
