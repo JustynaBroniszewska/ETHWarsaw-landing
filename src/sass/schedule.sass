@@ -1,0 +1,439 @@
+@import helpers/reset
+@import helpers/breakpoints
+
+.schedule
+  width: 100%
+  max-width: 100%
+  padding-bottom: 48px
+  overflow: hidden
+
+.schedule__wrapper
+  width: 100%
+  max-width: 1128px
+  margin: 0 auto
+  padding: 0 24px
+
+.schedule__header
+  width: 100%
+  max-width: 100%
+  padding: 36px 0
+  background-color: #ffffff
+
+.schedule__header-row
+  display: flex
+  align-items: center
+  flex-wrap: wrap
+  width: 100%
+  max-width: 100%
+  row-gap: 24px
+
+.schedule__header-button
+  display: flex
+  justify-content: center
+  align-items: center
+  min-width: 64px
+  width: 64px
+  max-width: 64px
+  min-height: 64px
+  height: 64px
+  max-height: 64px
+  border: 2px solid #55eec8
+  border-radius: 10px
+  color: #0b0e14
+
+.schedule__title
+  display: block
+  font-size: 48px
+  line-height: 56px
+  font-weight: 400
+  font-family: "Lexend"
+  text-transform: uppercase
+  margin-left: 64px
+  z-index: 1
+
+.schedule__title--bold
+  font-weight: 700
+
+a.schedule__checkout
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  text-align: center
+  margin-left: auto
+  min-height: 64px
+  min-width: 340px
+  padding: 0 24px
+  border: 4px solid #55eec8
+  border-radius: 10px
+  background-color: #ffffff
+  font-family: "Lexend"
+  font-size: 16px
+  line-height: 20px
+  font-weight: 700
+  text-transform: uppercase
+
+.schedule__checkout-bold
+  display: block
+  font-family: "Lexend"
+  font-weight: 700
+  font-size: 20px
+  line-height: 24px
+  text-align: center
+  letter-spacing: 0.11em
+  text-transform: uppercase
+
+@media screen and (max-width: 768px)
+  .schedule__header-row
+    column-gap: 24px
+
+  .schedule__title
+    font-size: 18px
+    line-height: 32px
+    margin-left: 0
+
+  a.schedule__checkout
+    min-width: unset
+    margin-left: 0
+
+.schedule__info
+  margin: 48px 0 0
+  font-family: "Lexend"
+  font-size: 32px
+  line-height: 48px
+  font-weight: 700
+  text-transform: uppercase
+  color: #0b0e14
+
+@media screen and (max-width: 768px)
+  .schedule__info
+    margin-top: 32px
+    font-size: 24px
+    line-height: 32px
+
+.schedule__days
+  width: 100%
+  max-width: 100%
+  min-height: 68px
+  padding: 8px 0
+  background-color: #9671ff
+
+.schedule__days-list
+  display: flex
+  flex-wrap: wrap
+  width: 100%
+  max-width: 100%
+  column-gap: 12px
+  row-gap: 12px
+
+.schedule__day
+  display: flex
+  justify-content: center
+  align-items: center
+  min-width: 100px
+  width: fit-content
+  padding: 0 24px
+  border-radius: 15px
+  border: 2px solid transparent
+  background-color: transparent
+  color: #ffffff
+  font-size: 32px
+  line-height: 48px
+  font-weight: 400
+  cursor: pointer
+
+@media screen and (max-width: 768px)
+  .schedule__days-list
+    justify-content: space-evenly
+
+  .schedule__day
+    min-width: unset
+    font-size: 16px
+    line-height: 24px
+    padding: 0 16px
+
+.schedule__day:hover,
+.schedule__day:focus-visible
+  border-color: #c3aeff
+
+.schedule__day:active
+  border-color: #c3aeff
+
+.schedule__day:focus-visible
+  border-color: #c3aeff
+
+.schedule__day--active
+  border-color: #c3aeff
+  background-color: #c3aeff
+
+.schedule__tabs
+  margin-top: 36px
+
+.schedule__tables
+  width: 100%
+  margin-top: 36px
+
+.schedule__table
+  display: none
+  width: 100%
+
+.schedule__table--active
+  display: block
+
+.schedule__table-tabs
+  display: flex
+  width: 100%
+  column-gap: 24px
+
+.schedule__table-tab
+  display: flex
+  position: relative
+  justify-content: center
+  align-items: center
+  width: 100%
+  min-height: 80px
+  height: 80px
+  max-height: 80px
+  padding: 0 8px
+  border: 2px solid transparent
+  border-color: #9671ff
+  background-color: #9671ff
+  border-radius: 18px 18px 0 0
+  font-family: "Lexend"
+  font-weight: 500
+  font-size: 24px
+  line-height: 30px
+  color: #ffffff
+  letter-spacing: 0.11em
+  text-transform: uppercase
+  cursor: pointer
+
+@media screen and (max-width: 768px)
+  .schedule__table-tabs
+    column-gap: 12px
+
+  .schedule__table-tab
+    font-size: 16px
+    line-height: 24px
+    letter-spacing: unset
+
+.schedule__table-tab::before
+  content: ""
+  position: absolute
+  top: 100%
+  left: 50%
+  width: 100%
+  height: 4px
+  background-color: transparent
+  transform: translate(-50%, -1px)
+  z-index: 1
+  pointer-events: none
+
+.schedule__table-tab--active
+  border-color: #55eec8
+  background-color: #ffffff
+  color: #000000
+
+  &::before
+    background-color: #ffffff
+
+.schedule__table-stages
+  width: 100%
+  position: relative
+  border: 2px solid #55eec8
+  border-radius: 0 0 18px 18px
+  margin-top: -2px
+  overflow: hidden
+
+.schedule__table-stage
+  display: none
+
+.schedule__table-stage--active
+  display: block
+
+.schedule__table-stage-title
+  display: block
+  width: fit-content
+  margin: 12px auto 0
+  font-family: "Lexend"
+  font-weight: 600
+  font-size: 16px
+  line-height: 20px
+  text-align: center
+  letter-spacing: 0.11em
+  text-transform: uppercase
+  color: #9671ff
+
+.schedule__table-stage-events
+  margin-top: 12px
+  width: 100%
+
+.schedule__table-event
+  width: 100%
+  overflow: hidden
+
+.schedule__table-event + .schedule__table-event
+  margin-top: 24px
+
+.schedule__table-event-button
+  display: flex
+  align-items: center
+  column-gap: 24px
+  width: 100%
+  min-height: 80px
+  padding: 8px 48px 8px 68px
+  border: none
+  border-top: 2px solid #55eec8
+  border-bottom: 2px solid #55eec8
+  background-color: #dafcfe
+  text-align: left
+  cursor: pointer
+  overflow: hidden
+
+@media screen and (max-width: 768px)
+  .schedule__table-event-button
+    column-gap: 12px
+    padding: 8px 12px
+
+.schedule__table-event-button.schedule__table-event-button--disabled
+  cursor: auto
+
+.schedule__table-event:last-child .schedule__table-event-button
+  border-bottom: none
+
+.schedule__table-event-time
+  display: block
+  font-family: "Lexend"
+  font-weight: 500
+  font-size: 18px
+  line-height: 24px
+  letter-spacing: 0.11em
+  text-transform: uppercase
+  pointer-events: none
+  min-width: 64px
+
+.schedule__table-event-title
+  display: block
+  font-family: "Lexend"
+  font-weight: 600
+  font-size: 20px
+  line-height: 24px
+  color: #000000
+  margin-left: 40px
+  pointer-events: none
+
+.schedule__table-event-arrow
+  display: block
+  min-width: 24px
+  width: 24px
+  max-width: 24px
+  min-height: 24px
+  max-height: 24px
+  color: #52efc6
+  margin-left: auto
+  pointer-events: none
+
+.schedule__table-event-body
+  display: none
+  width: calc(100% + 4px)
+  margin-left: -2px
+  margin-top: -2px
+  padding: 42px 68px 56px
+  border: 2px solid #55eec8
+  border-radius: 0 0 18px 18px
+
+  .schedule__table-event:last-child &
+    border-bottom: none
+
+.schedule__table-event.schedule__table-event--active .schedule__table-event-arrow
+  transform: scaleY(-1)
+
+.schedule__table-event.schedule__table-event--active .schedule__table-event-body
+  display: block
+
+.schedule__table-event-speakers
+  display: flex
+  flex-wrap: wrap
+  column-gap: 24px
+  row-gap: 24px
+  max-width: 100%
+
+.schedule__table-event-speaker
+  display: flex
+  align-items: center
+  width: fit-content
+  column-gap: 12px
+
+.schedule__table-event-speaker-image
+  display: block
+  width: 44px
+  min-width: 44px
+  max-width: 44px
+  min-height: 44px
+  max-height: 44px
+  object-fit: cover
+  object-position: top
+  border-radius: 44px
+  background-color: #ffffff
+  border: 1px solid #55eec8
+  overflow: hidden
+
+.schedule__table-event-speaker-name
+  font-family: "Lexend"
+  font-weight: 400
+  font-size: 18px
+  line-height: 24px
+  color: #000000
+
+@media screen and (max-width: 768px)
+  .schedule__table-event-speaker-name
+    font-size: 14px
+    line-height: 18px
+
+  .schedule__table-event-time
+    min-width: 52px
+
+.schedule__table-event-description
+  width: 100%
+  margin: 24px 0 0
+  font-family: "Lexend"
+  font-weight: 400
+  font-size: 18px
+  line-height: 24px
+  color: rgba(0, 0, 0, 0.7)
+
+  .schedule__table-event-speakers + &
+    padding-top: 24px
+    border-top: 2px solid #55eec8
+
+@media screen and (max-width: 768px)
+  .schedule__table-event-time
+    font-size: 16px
+
+  .schedule__table-event-title
+    margin-left: 0
+    font-size: 16px
+
+  .schedule__table-event-arrow
+    display: block
+    min-width: 16px
+    width: 16px
+    max-width: 16px
+    min-height: 16px
+    max-height: 16px
+
+  .schedule__table-event-body
+    padding: 24px 12px 48px
+
+.schedule__bottom-image
+  display: block
+  width: 100%
+  height: auto
+  margin: 100px auto 0
+
+.schedule__days-loader
+  display: block
+  color: #ffffff
+  font-size: 32px
+  line-height: 48px
+  font-weight: 400

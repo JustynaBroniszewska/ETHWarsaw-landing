@@ -11,7 +11,7 @@ gulp.task('sass', function () {
 		], {
 			cascade: true
 		}))
-		.pipe(gulp.dest('src/css/'))
+		.pipe(gulp.dest('src/css'))
 		.pipe(browserSync.reload({ stream: true }));
 });
 
