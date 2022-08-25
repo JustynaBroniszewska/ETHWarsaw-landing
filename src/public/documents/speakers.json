@@ -11,7 +11,7 @@
           "website": "https://stake.capital"
         }
       ],
-      "image": "/images/julien_bouteloup.png"
+      "image": "/public/images/julien_bouteloup.png"
     },
     {
       "name": "Figue",
@@ -21,7 +21,7 @@
           "twitter": "https://twitter.com/Figue_me"
         }
       ],
-      "image": "/images/figue.jpg"
+      "image": "/public/images/figue.jpg"
     },
     {
       "name": "Aleksandra",
@@ -31,7 +31,7 @@
           "website": "https://daocraft.cx"
         }
       ],
-      "image": "/images/aleksandra.JPG"
+      "image": "/public/images/aleksandra.JPG"
     },
     {
       "name": "Justyna Broniszewska",
@@ -44,7 +44,7 @@
           "website": "https://truefi.io/"
         }
       ],
-      "image": "/images/justyna_broniszewska.jpeg"
+      "image": "/public/images/justyna_broniszewska.jpeg"
     },
     {
       "name": "Kacper Bąk",
@@ -54,7 +54,7 @@
           "website": "https://quantstamp.com"
         }
       ],
-      "image": "/images/kacper_bak.png"
+      "image": "/public/images/kacper_bak.png"
     },
     {
       "name": "Łukasz Stoczyński",
@@ -64,7 +64,7 @@
           "twitter": "https://twitter.com/stoczek_es"
         }
       ],
-      "image": "/images/lukasz_stoczynski.jpg"
+      "image": "/public/images/lukasz_stoczynski.jpg"
     },
     {
       "name": "Kasia Sitkiewicz",
@@ -73,7 +73,7 @@
           "twitter": "https://twitter.com/calikasia"
         }
       ],
-      "image": "/images/kasia_sitkiewicz.jpeg"
+      "image": "/public/images/kasia_sitkiewicz.jpeg"
     },
     {
       "name": "Robert Pałuba",
@@ -83,7 +83,7 @@
           "twitter": "https://twitter.com/ethwarsaw"
         }
       ],
-      "image": "/images/robert_paluba.jpeg"
+      "image": "/public/images/robert_paluba.jpeg"
     },
     {
       "name": "Uri Kirstein",
@@ -93,12 +93,12 @@
           "twitter": "https://twitter.com/kirsteinuri"
         }
       ],
-      "image": "/images/uri_kirstein.jpeg"
+      "image": "/public/images/uri_kirstein.jpeg"
     },
     {
       "name": "Nadia Alvarez",
       "project": "MakerDAO",
-      "image": "/images/nadia_alvarez.jpeg"
+      "image": "/public/images/nadia_alvarez.jpeg"
     },
     {
       "name": "Bartek Rutkowski",
@@ -111,7 +111,7 @@
           "website": "https://truefi.io/"
         }
       ],
-      "image": "/images/bartek_rutkowski.jpg"
+      "image": "/public/images/bartek_rutkowski.jpg"
     },
     {
       "name": "Przemek Kowalczyk",
@@ -121,7 +121,7 @@
           "twitter": "https://twitter.com/przemekowalczyk"
         }
       ],
-      "image": "/images/przemek_kowalczyk.png"
+      "image": "/public/images/przemek_kowalczyk.png"
     },
     {
       "name": "Romina Bungert",
@@ -131,7 +131,7 @@
           "website": "https://www.centrifuge.io"
         }
       ],
-      "image": "/images/romina_bungert.jpg"
+      "image": "/public/images/romina_bungert.jpg"
     },
     {
       "name": "Marek Kirejczyk",
@@ -141,7 +141,7 @@
           "twitter": "https://twitter.com/ethmarek"
         }
       ],
-      "image": "/images/marek_kirejczyk.jpeg"
+      "image": "/public/images/marek_kirejczyk.jpeg"
     },
     {
       "name": "Łukasz Muzyka",
@@ -151,7 +151,7 @@
           "website": "https://ipor.io"
         }
       ],
-      "image": "/images/lukasz_muzyka.png"
+      "image": "/public/images/lukasz_muzyka.png"
     },
     {
       "name": "Sam MacPherson (hexonaut)",
@@ -164,7 +164,7 @@
           "website": "https://makerdao.com/"
         }
       ],
-      "image": "/images/sam_macpherson.jpg"
+      "image": "/public/images/sam_macpherson.jpg"
     },
     {
       "name": "Piotr Szlachciak",
@@ -174,7 +174,7 @@
           "twitter": "https://twitter.com/l2beat"
         }
       ],
-      "image": "/images/piotr_szlachciak.png"
+      "image": "/public/images/piotr_szlachciak.png"
     },
     {
       "name": "Paweł Łaskarzewski",
@@ -184,7 +184,7 @@
           "twitter": "https://twitter.com/PawelSynapse"
         }
       ],
-      "image": "/images/pawel_laskarzewski.jpg"
+      "image": "/public/images/pawel_laskarzewski.jpg"
     },
     {
       "name": "Adam Gągol",
@@ -194,7 +194,7 @@
           "website": "https://alephzero.org"
         }
       ],
-      "image": "/images/adam_gagol.png"
+      "image": "/public/images/adam_gagol.png"
     },
     {
       "name": "Damian Paszkowski",
@@ -204,7 +204,7 @@
           "website": "https://oasis.app"
         }
       ],
-      "image": "/images/damian_paszkowski.png"
+      "image": "/public/images/damian_paszkowski.png"
     },
     {
       "name": "Damian Rusinek",
@@ -214,12 +214,12 @@
           "twitter": "https://twitter.com/drdr_zz"
         }
       ],
-      "image": "/images/damian_rusinek.jpeg"
+      "image": "/public/images/damian_rusinek.jpeg"
     },
     {
       "name": "Sumit Kishore",
       "project": "Consensys",
-      "image": "/images/sumit_kishore.jpg"
+      "image": "/public/images/sumit_kishore.jpg"
     },
     {
       "name": "Olaf Tomalka",
@@ -232,7 +232,7 @@
           "twitter": "https://twitter.com/ritave"
         }
       ],
-      "image": "/images/olaf_tomalka.jpg"
+      "image": "/public/images/olaf_tomalka.jpg"
     },
     {
       "name": "Ryan Rodenbaugh",
@@ -242,7 +242,7 @@
           "twitter": "https://twitter.com/ryanrodenbaugh"
         }
       ],
-      "image": "/images/ryan_rodenbaugh.png"
+      "image": "/public/images/ryan_rodenbaugh.png"
     },
     {
       "name": "Jakub Wojciechowski",
@@ -255,7 +255,7 @@
           "linkedin": "https://www.linkedin.com/in/jakub-wojciechowski-5901b68/"
         }
       ],
-      "image": "/images/jakub_wojciechowski.jpg"
+      "image": "/public/images/jakub_wojciechowski.jpg"
     },
     {
       "name": "Christophe Fonteneau",
@@ -265,7 +265,7 @@
           "website": "https://www.request.finance"
         }
       ],
-      "image": "/images/christophe_fonteneau.jpeg"
+      "image": "/public/images/christophe_fonteneau.jpeg"
     },
     {
       "name": "Bartosz Rybarski",
@@ -275,7 +275,7 @@
           "twitter": "https://twitter.com/bartekryba"
         }
       ],
-      "image": "/images/bartosz_rybarski.jpg"
+      "image": "/public/images/bartosz_rybarski.jpg"
     },
     {
       "name": "Orest Tarasiuk",
@@ -285,7 +285,7 @@
           "twitter": "https://twitter.com/OrestTa"
         }
       ],
-      "image": "/images/orest_tarasiuk.jpg"
+      "image": "/public/images/orest_tarasiuk.jpg"
     },
     {
       "name": "Vitaly Yakovlev",
@@ -295,7 +295,7 @@
           "website": "https://zkx.fi"
         }
       ],
-      "image": "/images/vitaly_yakovlev.jpeg"
+      "image": "/public/images/vitaly_yakovlev.jpeg"
     },
     {
       "name": "Miao Zhicheng ",
@@ -305,7 +305,7 @@
           "linkedin": "https://www.linkedin.com/in/miaozc/"
         }
       ],
-      "image": "/images/miao_zhicheng.jpeg"
+      "image": "/public/images/miao_zhicheng.jpeg"
     },
     {
       "name": "Kresimir Vuksan",
@@ -315,7 +315,7 @@
           "website": "https://moralis.io"
         }
       ],
-      "image": "/images/kresimir_vuksan.jpg"
+      "image": "/public/images/kresimir_vuksan.jpg"
     },
     {
       "name": "Niclas Hallgren",
@@ -325,7 +325,7 @@
           "website": "https://moralis.io"
         }
       ],
-      "image": "/images/niclas_hallgren.jpg"
+      "image": "/public/images/niclas_hallgren.jpg"
     },
     {
       "name": "Michal Bazyli",
@@ -335,7 +335,7 @@
           "website": "https://halborn.com"
         }
       ],
-      "image": "/images/michal_bazyli.jpg"
+      "image": "/public/images/michal_bazyli.jpg"
     },
     {
       "name": "Jorik Schellekens",
@@ -353,7 +353,7 @@
     {
       "name": "Hilmar Orth",
       "project": "Gelato",
-      "image": "/images/hilmar_orth.jpg"
+      "image": "/public/images/hilmar_orth.jpg"
     },
     {
       "name": "Julian Zawistowski",
@@ -363,7 +363,7 @@
           "twitter": "https://twitter.com/julianzawist"
         }
       ],
-      "image": "/images/julian_zawistowski.jpeg"
+      "image": "/public/images/julian_zawistowski.jpeg"
     },
     {
       "name": "Massil Achab",
@@ -376,7 +376,7 @@
           "linkedin": "https://www.linkedin.com/in/massil-achab-b19b3b20"
         }
       ],
-      "image": "/images/massil_achab.png"
+      "image": "/public/images/massil_achab.png"
     },
     {
       "name": "Luka Anicin",
@@ -386,7 +386,7 @@
           "linkedin": "https://www.linkedin.com/in/luka-anicin/"
         }
       ],
-      "image": "/images/luka_anicin.jpg"
+      "image": "/public/images/luka_anicin.jpg"
     },
     {
       "name": "Kris Kaczor",
@@ -396,12 +396,12 @@
           "twitter": "https://twitter.com/krzkaczor"
         }
       ],
-      "image": "/images/kris_kaczor.png"
+      "image": "/public/images/kris_kaczor.png"
     },
     {
       "name": "Brian McGleenon",
       "project": "Yahoo Finance`s The Crypto Mile",
-      "image": "/images/brian_mcgleenon.jpeg"
+      "image": "/public/images/brian_mcgleenon.jpeg"
     },
     {
       "name": "Marcin Majchrzak",
@@ -411,7 +411,7 @@
           "website": "https://angelblock.io"
         }
       ],
-      "image": "/images/marcin_majchrzak.png"
+      "image": "/public/images/marcin_majchrzak.png"
     },
     {
       "name": "Stani Kulechov",
@@ -421,7 +421,7 @@
           "twitter": "https://twitter.com/StaniKulechov"
         }
       ],
-      "image": "/images/stani_kulechov.jpeg"
+      "image": "/public/images/stani_kulechov.jpeg"
     },
     {
       "name": "Juan",
@@ -431,7 +431,7 @@
           "twitter": "https://twitter.com/0x7u4n"
         }
       ],
-      "image": "/images/juan.jpeg"
+      "image": "/public/images/juan.jpeg"
     },
     {
       "name": "Francesco Andreoli",
@@ -441,7 +441,7 @@
           "twitter": "https://twitter.com/francescoswiss"
         }
       ],
-      "image": "/images/francesco_andreoli.jpeg"
+      "image": "/public/images/francesco_andreoli.jpeg"
     },
     {
       "name": "Piotr Duda",
@@ -451,7 +451,7 @@
           "linkedin": "https://www.linkedin.com/in/piotr-duda-62b66b63/"
         }
       ],
-      "image": "/images/piotr_duda.jpg"
+      "image": "/public/images/piotr_duda.jpg"
     },
     {
       "name": "Mathieu",
@@ -460,7 +460,7 @@
           "twitter": "https://twitter.com/productmatt_"
         }
       ],
-      "image": "/images/mathieu.png"
+      "image": "/public/images/mathieu.png"
     },
     {
       "name": "Maciej Burno",
@@ -470,7 +470,7 @@
           "website": "https://nft.reality.co/"
         }
       ],
-      "image": "/images/maciej_burno.png"
+      "image": "/public/images/maciej_burno.png"
     },
     {
       "name": "Louis Guthmann",
@@ -480,7 +480,7 @@
           "website": "https://Starkware.co"
         }
       ],
-      "image": "/images/louis_guthmann.jpeg"
+      "image": "/public/images/louis_guthmann.jpeg"
     },
     {
       "name": "Chris Perdek",
@@ -490,7 +490,7 @@
           "website": "https://uniqly.io/"
         }
       ],
-      "image": "/images/chris_perdek.png"
+      "image": "/public/images/chris_perdek.png"
     },
     {
       "name": "Nikita Cikaluk",
@@ -500,7 +500,7 @@
           "twitter": "https://twitter.com/cikaluk_n"
         }
       ],
-      "image": "/images/nikita_cikaluk.png"
+      "image": "/public/images/nikita_cikaluk.png"
     },
     {
       "name": "Michał Dąbrowski",
@@ -525,7 +525,7 @@
           "website": "https://wojtek.wtf/"
         }
       ],
-      "image": "/images/wojtek.png"
+      "image": "/public/images/wojtek.png"
     }
   ]
 }
