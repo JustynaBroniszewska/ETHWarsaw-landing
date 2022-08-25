@@ -57,7 +57,7 @@ const renderEvent = (parent, eventData) => {
       return `
         <div class="schedule__table-event-speakers">
           ${eventData.speakers.map((item, index) => {
-        return (`<div class="schedule__table-event-speaker"><img class="schedule__table-event-speaker-image" src="${item.image ?? '/scheduleData/images/speaker_placeholder.svg'}" loading="lazy" decoding="async"/><span class="schedule__table-event-speaker-name">${item.name}</span></div>`)
+        return (`<div class="schedule__table-event-speaker"><img class="schedule__table-event-speaker-image" src="${item.image ? item.image : '/scheduleData/images/speaker_placeholder.svg'}" loading="lazy" decoding="async"/><span class="schedule__table-event-speaker-name">${item.name}</span></div>`)
       }).join('')}
         </div>
       `
@@ -179,7 +179,7 @@ const handleScheduleFetch = () => {
   daysLoader.innerHTML = `We're trying to load the ETHWarsaw schedule...`
   scheduleDays.querySelector('.schedule__wrapper').appendChild(daysLoader)
 
-  fetch(`/scheduleData/schedule.json`)
+  fetch(`/documents/schedule.json`)
     .then((response) => {
       if (response.ok) {
         return response

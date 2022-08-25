@@ -51,7 +51,7 @@ const renderSpeaker = (speaker, parent) => {
   }
 
   speakerItem.innerHTML = `
-    <img class="speaker__image" src="${speaker.image ?? '/images/speaker_placeholder.svg'}" alt="${speaker.name + ' ' ?? ''}image" loading="lazy" decoding="async"/>
+    <img class="speaker__image" src="${speaker.image ? speaker.image : '/images/speaker_placeholder.svg'}" alt="${speaker.name ? speaker.name : ''} image" loading="lazy" decoding="async"/>
     ${renderSpeakerName(speaker.name)}
     ${renderSpeakeProject(speaker.project)}
   `
@@ -67,7 +67,7 @@ const handleSpeakersFetch = () => {
   speakersLoader.innerHTML = `We're trying to load ETHWarsaw speakers...`
   speakersGrid.appendChild(speakersLoader)
 
-  fetch(`/speakers/speakers.json`)
+  fetch(`/documents/speakers.json`)
     .then((response) => {
       if (response.ok) {
         return response
