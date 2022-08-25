@@ -9,6 +9,8 @@
     "parcel-plugin-static-files-copy": "^2.6.0"
   },
   "staticFiles": {
-    "staticPath": ["src/public"]
- }
+    "staticPath": [
+      "src/public"
+    ]
+  }
 }
