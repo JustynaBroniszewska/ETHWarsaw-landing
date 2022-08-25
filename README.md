@@ -4,4 +4,4 @@ To install all dependencies run:
 
 To start server run:
 
-`yarn start`
+`yarn gulp`
