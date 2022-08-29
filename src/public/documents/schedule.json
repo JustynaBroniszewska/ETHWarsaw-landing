@@ -281,7 +281,7 @@
           },
           {
             "time": "10:30",
-            "title": "Workshop: Smart Contract Security ",
+            "title": "Workshop: Best Practices in Web3 Coding",
             "speakers": [
               {
                 "name": "Michał Bazyli",
@@ -307,7 +307,7 @@
           {
             "time": "11:30",
             "title": "Getting on Starknet at Warp Speed",
-            "description": "Introduction to Warp 2.0 - L2 track Following Nethermind's shiny new release of Warp which transpiles Solidity to Cairo I'd like to do a brief introduction of Starknet and Cairo followed by a hands on walkthrough of deploying Solidity contracts to Starknet using Warp. The final part of the talk would be a useful developer focused overview on which Solidity constructs need to be altered in order to port large code bases. I was a lead dev on the warp project and the lead of the AAVE to Starknet Port at Nethermind.",
+            "description": "Warp's shiny new 2.0 release makes deploying your Solidity onto StarkNet easy. Follow along with this live coding demo (brace yourselves) of some transpilation examples and their deployment on StarkNet. We'll cover some examples of the changes you would need to make to accommodate Cario's semantics, we'll do a deep dive on some of the transformations the transpiler does, and finally, we'll discuss the future roadmap of the transpiler.",
             "speakers": [
               {
                 "name": "Jorik Schellekens (Nethermind)",
@@ -317,11 +317,11 @@
           },
           {
             "time": "12:00",
-            "title": "Discussion Panel: Security",
-            "description": "Panelists: Uri Kirstein (Certora), Kacper Bąk (Quantstamp), Piotr Cielas (Halborn), Damian Rusinek (Composable Security)",
+            "title": "Discussion Panel: Web3 Trends",
+            "description": "Sumit Kishore (Consensys), Paulina Jóśków (Ramp Network), Retro (MakerDAO), Marcin Kaźmierczak (Redstone)",
             "speakers": [
               {
-                "name": "Moderated by Marek Kirejczyk (TrueFi)",
+                "name": "Mod: Brian McGleenon (Yahoo Finance)",
                 "image": "/public/images/marek_kirejczyk.jpeg"
               }
             ]
@@ -376,12 +376,12 @@
           },
           {
             "time": "16:00",
-            "title": "Discussion Panel: Web3 Trends",
-            "description": "Sumit Kishore (Consensys), Ramp Network, AngelBlock, Redstone",
+            "title": "Discussion Panel: Security",
+            "description": "Panelists: Uri Kirstein (Certora), Kacper Bąk (Quantstamp), Piotr Cielas (Halborn), Damian Rusinek (Composable Security)",
             "speakers": [
               {
-                "name": "Mod: Brian McGleenon (Yahoo Finance)",
-                "image": "/public/images/brian_mcgleenon.jpeg"
+                "name": "Moderated by Marek Kirejczyk (TrueFi)",
+                "image": "/public/images/marek_kirejczyk.jpeg"
               }
             ]
           },
@@ -412,13 +412,18 @@
           },
           {
             "time": "18:30",
-            "title": "Warp Contracts Opening Workshop",
+            "title": "Arweave & Warp Contracts Opening Workshop",
+            "description": "Learn how to start with Arweave & Warp Contracts and compete for $10,000 total bounties brought by Warp & RedStone!",
             "speakers": [
               {
                 "name": "Arweave",
                 "image": "/public/images/arweave.jpeg"
               }
             ]
+          },
+          {
+            "time": "🌙",
+            "title": "🛠 Overnight hacking session"
           }
         ]
       },
@@ -432,6 +437,17 @@
               {
                 "name": "Certora",
                 "image": "/public/images/certora.jpeg"
+              }
+            ]
+          },
+          {
+            "time": "12:00",
+            "title": "Hackathon oracle integration with a few lines of code & deploying modular smart contracts on Arweave (Workshop)",
+            "description": "Storage-less oracles could become a game-changer for Web3, offering better scalability and shorter data refresh intervals. Simultaneously, modular smart-contract architecture is one of the hottest topics in recent weeks. At this workshop, you'll learn how to integrate Oracle data on a hackathon and how to implement Warp Contracts on top of the Arweave storage chain, allowing you to create unique hackathon projects with heavy data processing requirements.</br></br><a href='https://redstone.finance/' target='_blank' rel='noopener noreferrer'>redstone.finance</a>, </br><a href='https://warp.cc/' target='_blank' rel='noopener noreferrer'>warp.cc</a>",
+            "speakers": [
+              {
+                "name": "Redstone Finance",
+                "image": "/public/images/redstone_finance.png"
               }
             ]
           },
@@ -466,21 +482,6 @@
             ]
           },
           {
-            "time": "15:30",
-            "title": "AlephZero & Supercolony workshop",
-            "description": "TBA",
-            "speakers": [
-              {
-                "name": "AlephZero",
-                "image": "/public/images/alephzero.jpeg"
-              },
-              {
-                "name": "Supercolony",
-                "image": "/public/images/supercolony.jpeg"
-              }
-            ]
-          },
-          {
             "time": "16:00",
             "title": "StarkNet 101 - Introduction to Cairo smart contracts. Unleash the power of ZK-STARKs.",
             "description": "You will learn what StarkNet is, how it works and why it's so good. We’ll introduce you to the Cairo language, StarkNet ecosystem and tools. Then, in the practical part, you’ll build and deploy your own smart contract. No prior blockchain experience required, although we assume you have some general programming knowledge.",
@@ -494,6 +495,10 @@
           {
             "time": "18:00",
             "title": "Hackathon Opening"
+          },
+          {
+            "time": "🌙",
+            "title": "🛠 Overnight hacking session"
           }
         ]
       }
@@ -512,10 +517,32 @@
           },
           {
             "time": "13:00",
-            "title": "🥟Lunch with Stani Kulechov (👻AAVE)"
+            "title": "🥟Lunch with Stani Kulechov (👻AAVE) !!Hackers Only!!"
           },
           {
             "time": "14:00",
+            "title": "Panel: How to make your hackathon project stand out",
+            "speakers": [
+              {
+                "name": "Marek Kirejczyk (TrueFi CTO)",
+                "image": "/public/images/marek_kirejczyk.png"
+              },
+              {
+                "name": "Stani Kulehov (Aave Founder)",
+                "image": "/public/images/stani_kulehov.png"
+              },
+              {
+                "name": "Alex Gluchowski (Matter Labs CEO)",
+                "image": "/public/images/alex_gluchowski.png"
+              },
+              {
+                "name": "Jakub Wojciechowski (RedStone Founder)",
+                "image": "/public/images/jakub_wojciechowski.png"
+              }
+            ]
+          },
+          {
+            "time": "15:00",
             "title": "Open Mic session"
           },
           {
@@ -532,6 +559,10 @@
           {
             "time": "10:00",
             "title": "Hackathon submissions deadline"
+          },
+          {
+            "time": "11:00",
+            "title": "Judging sessions for ETHWarsaw Prizes"
           },
           {
             "time": "16:00",
