@@ -1,0 +1,171 @@
+.main
+  display: flex
+  flex-direction: column
+  justify-items: flex-end
+  background: white
+  overflow-x: hidden
+
+.header-wrapper
+  background: #dafcfe
+
+.events-list-wrapper
+  display: flex
+  flex-direction: column
+  align-items: center
+  width: 100%
+  max-width: 816px
+  margin: 30px auto 30px
+  padding: 0 24px
+  background: white
+
+.event-element
+  position: relative
+  background: #55eec8
+  border-radius: 18px
+  font-family: "Lexend"
+  font-style: normal
+  font-weight: 400
+  font-size: 24px
+  line-height: 120%
+  display: flex
+  align-items: center
+  text-align: center
+  text-transform: uppercase
+  display: flex
+  flex-direction: column
+  justify-content: center
+  overflow: hidden
+  border: none
+  width: 100%
+
+.event-element + .event-element
+  margin-top: 30px
+
+.a-event-element
+  padding: 5px
+
+.event-element-text
+  margin: 0
+  font-weight: light
+
+.event-element-date
+  font-weight: bold
+
+.event-element-soon
+  background: #aaf7e3
+  color: #6e6e6e
+
+  &::before
+    content: "soon"
+    position: absolute
+    left: 32px
+    top: 0
+    padding: 86px 4px
+    font-family: "Lexend"
+    font-weight: 700
+    font-size: 24px
+    line-height: 48px
+    text-align: center
+    text-transform: uppercase
+    writing-mode: vertical-lr
+    color: #aaf7e3
+    background-color: #ffffff
+    transform: translate(50%, -86px) rotate(215deg)
+    z-index: 1
+
+@media screen and (max-width: 768px)
+  .event-element-soon::before
+    transform: translate(-50%, -76px) rotate(215deg)
+    font-size: 14px
+    line-height: 24px
+
+.event-element-soon-label
+  position: absolute
+  left: 33px
+  transform: matrix(0.63, -0.77, 0.79, 0.62, 0, 0)
+  background: white
+  display: flex
+  justify-content: center
+  align-items: center
+  color: #aaf7e3
+
+.event-element-soon-text
+  font-family: "Lexend"
+  font-style: normal
+  font-weight: 700
+  font-size: 24px
+  line-height: 120%
+  display: flex
+  text-align: center
+  text-transform: uppercase
+
+.left-illustration
+  position: absolute
+  width: 130px
+  height: 170px
+  left: 77.81px
+  top: 225px
+  transform: rotate(8.46deg)
+
+.bottom-illustration
+  position: absolute
+  left: 70.62%
+  right: 6.95%
+  top: 79%
+
+@media screen and (max-width: 576px)
+  .bar
+    height: 35px
+
+    .left-illustration
+      display: none
+
+    .event-element
+      width: 85%
+
+    .a-event-element
+      width: 100%
+      margin-left: 20px
+      margin-right: 20px
+
+    .event-element-soon-label
+      height: 43px
+      left: -33px
+
+    .bottom-illustration
+      display: none
+      width: auto
+      position: absolute
+      left: 17.62%
+      right: 6.95%
+      top: 81%
+
+    .event-element-soon-label-conference
+      display: none
+
+@media screen and (min-width: 577px) and (max-width: 1024px)
+  .bottom-illustration
+    display: none
+    left: 36.62%
+    top: 75.25%
+    width: auto
+
+    &-img
+      width: 50%
+
+    .event-element
+      width: 85%
+
+    &-soon-label
+      height: 43px
+      left: -33px
+
+    .a-event-element
+      width: 100%
+
+    .left-illustration
+      display: none
+      width: 130px
+      height: 170px
+      left: 77.81px
+      top: 885px
