@@ -501,6 +501,171 @@
             "title": "🛠 Overnight hacking session"
           }
         ]
+      },
+      "trends": {
+        "events": [
+          {
+            "time": "10:00",
+            "title": "The Future of dApps & the Guide to Project Success",
+            "description": "Moralis is a leading Web3 API provider that empowers enterprises to integrate blockchain into everything. Niclas Hallgren (Moralis Tech Lead), and Kresimir Vuskan (Moralis Account Manager) have helped hundreds of projects launch and scale fast using Moralis's time and cost-saving solutions, including Delta, WorldWideWebb, RTKFT, Plasma Finance, and Superfarm. In this talk, they share their insights about the future of dapps, and how to set your project up for success from the start.",
+            "speakers": [
+              {
+                "name": "Kresimir Vuksan (Moralis)",
+                "image": "/public/images/kresimir_vuksan.jpg"
+              },
+              {
+                "name": "Niclas Hallgren (Moralis)",
+                "image": "/public/images/niclas_hallgren.jpg"
+              }
+            ]
+          },
+          {
+            "time": "10:30",
+            "title": "Web3 fundamentals - everything you have to know while starting",
+            "description": "We gonna touch on all the important aspects of web3 fundamentals from the perspective of a developer and business, to bring you closer to the concept of decentralised web, so you can learn about the toolset needed to build solutions on the infrastructure that is the next general purpose technology after the steam engine, the Internet, and AI.",
+            "speakers": [
+              {
+                "name": "Paweł Łaskarzewski (Synapse Network)",
+                "image": "/public/images/pawel_laskarzewski.jpg"
+              }
+            ]
+          },
+          {
+            "time": "11:00",
+            "title": "Blockchain gaming reimagined: an old/new engagement model",
+            "description": "Crypto gaming is surrounded by a lot of mystery and stigma because of its recent successes and failures. Can blockchain games even be entertaining? How to achieve player engagement that drives revenue? How to utilize blockchain as a powerful technology from a game development perspective? Let's take a fresh look at crypto games, admitting past mistakes and leading the way forward.",
+            "speakers": [
+              {
+                "name": "Michał Dąbrowski (Elympics)",
+                "image": "/public/images/michal_dabrowski.jpg"
+              }
+            ]
+          },
+          {
+            "time": "11:30",
+            "title": "Creating a Web3 Gaming Project on the top of An Existing Game - Reality Metaverse",
+            "description": "Main focus will be on connecting web 2 and web 3 users by creating a sustainable connection and creating Crypto/NFT project on the top of existing Web 2 game - Landlord GO geolocation property trading game with over 6 M organic downloads.",
+            "speakers": [
+              {
+                "name": "Maciej Burno (Reality Metaverse)",
+                "image": "/public/images/maciej_burno.png"
+              }
+            ]
+          },
+          {
+            "time": "12:00",
+            "title": "Web3 credentials 101: where are we, how to use them, where are we going?",
+            "description": "Web3 offers everybody to own their identity, reputation and credentials across all the internet, which is both:</br>- amazing and convenient</br>- dangerous and a privacy nightmare</br>How to solve for ideal internet credentials? On chain vs off chain? Privacy preserving or attached to real life identity? Soulbound tokens, verified credentials or just NFTs?</br>In this talk we will go over all web3 credential projects with significant adoption, recognize their tradeoffs and learn how to use web3 tools to build the credentials of the future.</br></br>Come for top alpha about the following projects :)</br>- achievements: gitpoap / kudos / poap / galaxy</br>- learning: buildspace / 101</br>- work experience: wonderverse / dework</br>- social graph: lens / cyberconnect</br>- writing: mirror</br>- privacy: sismo / disco.xyz</br>- aggregating them all: mazury!",
+            "speakers": [
+              {
+                "name": "Wojtek (mazury.xyz)",
+                "image": "/public/images/wojtek.png"
+              }
+            ]
+          },
+          {
+            "time": "12:30",
+            "title": "Soulbound Tokens - the secure and private accumulation of voting rightssecure and private accumulation of voting rights",
+            "description": "The talk will introduce the concept of using cryptography to address user privacy and protocol security problems in a project that uses Soulbound Tokens.",
+            "speakers": [
+              {
+                "name": "Paweł “Pepesza” Peregud (Wildland)",
+                "image": "/public/images/pawel_peregud.jpeg"
+              }
+            ]
+          },
+          {
+            "time": "13:00",
+            "title": "🥟Lunch Break"
+          },
+          {
+            "time": "14:00",
+            "title": "“We” in web3: the space built by people for people",
+            "description": "The biggest trend in web3 is its community - building for people by people and how traditional brands can benefit from it. With the popularity of DAOs, AMAs, and voting mechanisms, ownership moves from the few to the many, and leaders are more conductors than commanders. A healthy community can help a traditional business develop a better product based on feedback, add more features based on the community's needs, and organically onboard more people. For the first time in history, general users have the power to affect the brands' next step. There is “we” in web 3 for all of these reasons. I would like to dive deeper into 3 factors of community development (connectedness, co-creation, credentials), highlight the ways traditional businesses can build a community in web3 (DAOs, IRL events), and some recent examples (Lacoste, Tag Heuer, KPMG, Adidas).",
+            "speakers": [
+              {
+                "name": "Nikita Cikaluk",
+                "image": "/public/images/nikita_cikaluk.jpeg"
+              }
+            ]
+          },
+          {
+            "time": "14:30",
+            "title": "DAO101: Build for Success Aleksandra MakerDAO",
+            "description": "The talk focuses on how to design your DAO to avoid post-decentralization chaos, stagnation and other typical challenges. It brings perspective and learnings to all different members of core teams or DAOs, but it's target audience are founders who have a running project with a central core team and who want to decentralize in the near future (most existing “DAOs” are actually at different points of this stage, even if they already have some governance built in and call themselves a “DAO”). In the talk, I cover 5 core pillars or organization design: leadership, product, monetization, communication and resiliency, discussing them from the perspective of a DAO. I then go through the enablers of successful DAO design, i.e. processes, people and tools. The final objective is to provide listeners with a framework to decentralize in a structured and controlled way, preserving the objectives, principles, values and culture of the initial project.",
+            "speakers": [
+              {
+                "name": "Aleksandra (DAOCraft)",
+                "image": "/public/images/aleksandra.JPG"
+              }
+            ]
+          },
+          {
+            "time": "15:00",
+            "title": "How to build a great Web3 product roadmap",
+            "description": "Learn from GitHub Product Manager about some best practices around your product management, how to ship small and incremental features, and build a public product roadmap on GitHub.",
+            "speakers": [
+              {
+                "name": "Kasia Sitkiewicz (Github)",
+                "image": "/public/images/kasia_sitkiewicz.jpeg"
+              }
+            ]
+          },
+          {
+            "time": "15:30",
+            "title": "The State of the gaming industry and how web3 gaming fits into it",
+            "description": "Gaming has been a big driver of on-chain activity (and speculation!) for the last couple of months and has been seen as a future way of web3 mass adoption. But is that true? During the talk we will look at the current state of gaming market, where does the web3 gaming fits and what are the most interesting types of investments in this field today (not a financial advice of course!).",
+            "speakers": [
+              {
+                "name": "Joanna frota Kurkowska (G2A.com/Outlier Ventures)",
+                "image": "/public/images/joanna_kurkowska.jpeg"
+              }
+            ]
+          },
+          {
+            "time": "16:00",
+            "title": "Introduction to DeFi Bartek Rutkowski",
+            "description": "It’s been a while since Decentralised Finance has become the hottest trend in the crypto space. But what actually is Decentralised Finance? How does it work? What value does it bring? Why should I care? If you want to find out, this presentation is a must-see! Gelato Network is Web3's premier automation network, enabling developers to automate a wide variety of arbitrary smart contract executions on and across all EVM-compatible blockchains. Examples of use cases developers have built on top of Gelato include Limit Orders on AMMs like Uniswap, automatic compounding of yield farming vaults, Aave liquidation protection, MakerDAO debt ceiling updates, automated liquidity management, and even the petting of Aavegotchis.",
+            "speakers": [
+              {
+                "name": "Bartek Rutkowski (TrueFi)",
+                "image": "/public/images/bartek_rutkowski.jpg"
+              }
+            ]
+          },
+          {
+            "time": "16:30",
+            "title": "How DeFi Lending & liquidation work - explainer for Web2 folks",
+            "description": "Although lending is the second biggest DeFi category, how it works is a mystery even for many crypto-native people. This talk will introduce the basic DeFi lending concepts, show the key differences between TradFi vs. crypto lending and explain what challenges and opportunities it brings. Various approaches will be presented and compared, together with state-of-the-art projects and possible future ways of evolution.",
+            "speakers": [
+              {
+                "name": "Piotr Duda (DeltaPrime)",
+                "image": "/public/images/piotr_duda.jpg"
+              }
+            ]
+          },
+          {
+            "time": "17:00",
+            "title": "Lightning Talk: Why NFTs will be a Layer 2 for every physical asset?",
+            "description": "Imagine a world where every physical item has a digital layer of information. The trend of NFTs for physical items will completely transform the fashion industry and the way how we interact with clothes on a daily basis.",
+            "speakers": [
+              {
+                "name": "Chris Perdek (Uniqly)",
+                "image": "/public/images/chris_perdek.png"
+              }
+            ]
+          },
+          {
+            "time": "17:30",
+            "title": "About Security: A story written by best Ethereum hacks",
+            "speakers": [
+              {
+                "name": "Marek Kirejczyk (TrueFi)",
+                "image": "/public/images/marek_kirejczyk.jpeg"
+              }
+            ]
+          }
+        ]
       }
     },
     {
