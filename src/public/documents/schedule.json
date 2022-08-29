@@ -30,7 +30,7 @@
             "speakers": [
               {
                 "name": "Szymon Sypniewicz (Ramp)",
-                "image": "/public/images/szymon_sypniewicz.png"
+                "image": "/public/images/szymon_sypniewicz.jpeg"
               }
             ]
           },
@@ -133,7 +133,7 @@
             "speakers": [
               {
                 "name": "Moderated by Łukasz Stoczyński",
-                "image": "/public/images/lukasz_stoczynski.jpeg"
+                "image": "/public/images/lukasz_stoczynski.jpg"
               }
             ]
           },
@@ -194,7 +194,7 @@
             "speakers": [
               {
                 "name": "Michał Sieczkowski (TrueFi)",
-                "image": "/public/images/michal_sieczkowski.jpeg"
+                "image": "/public/images/michal_sieczkowski.png"
               }
             ]
           },
@@ -209,7 +209,7 @@
               },
               {
                 "name": "Michał Sieczkowski (TrueFi)",
-                "image": "/public/images/michal_sieczkowski.jpeg"
+                "image": "/public/images/michal_sieczkowski.png"
               }
             ]
           },
@@ -311,7 +311,7 @@
             "speakers": [
               {
                 "name": "Jorik Schellekens (Nethermind)",
-                "image": "/images/jorik_schellekens.jpeg"
+                "image": "/public/images/jorik_schellekens.jpeg"
               }
             ]
           },
@@ -525,11 +525,11 @@
             "speakers": [
               {
                 "name": "Marek Kirejczyk (TrueFi CTO)",
-                "image": "/public/images/marek_kirejczyk.png"
+                "image": "/public/images/marek_kirejczyk.jpeg"
               },
               {
-                "name": "Stani Kulehov (Aave Founder)",
-                "image": "/public/images/stani_kulehov.png"
+                "name": "Stani Kulechov (Aave Founder)",
+                "image": "/public/images/stani_kulechov.jpeg"
               },
               {
                 "name": "Alex Gluchowski (Matter Labs CEO)",
@@ -537,7 +537,7 @@
               },
               {
                 "name": "Jakub Wojciechowski (RedStone Founder)",
-                "image": "/public/images/jakub_wojciechowski.png"
+                "image": "/public/images/jakub_wojciechowski.jpg"
               }
             ]
           },
