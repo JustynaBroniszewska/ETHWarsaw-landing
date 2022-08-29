@@ -29,8 +29,8 @@
             "title": "Ramp Network Keynote",
             "speakers": [
               {
-                "name": "Przemek Kowalczyk (Ramp)",
-                "image": "/public/images/przemek_kowalczyk.png"
+                "name": "Szymon Sypniewicz (Ramp)",
+                "image": "/public/images/szymon_sypniewicz.jpeg"
               }
             ]
           },
@@ -59,7 +59,7 @@
           {
             "time": "12:00",
             "title": "Discussion Panel: L2 Solutions & Scalability",
-            "description": "Panelists from Starkware, AlephZero, Scroll, ZKX",
+            "description": "Panelists from Starkware, Adam Gągol (AlephZero), Scroll, ZKX </br> Many of us have heard about various scaling solutions. We're promised low latency, high volume and negligible fees. And yet the why and how often escapes. Not this time.",
             "speakers": [
               {
                 "name": "Moderated by Piotr Szlachciak (L2Beat)",
@@ -96,7 +96,7 @@
           {
             "time": "15:00",
             "title": "Discussion Panel: DAO & Governance",
-            "description": "Panelists: Julien Bouteloup, MakerDAO, BitDAO",
+            "description": "Panelists: Julien Bouteloup (StakeDAO), Nadia Alvarez (MakerDAO), Romain (PaladinDAO), Francesco Andreoli (ConsenSys)",
             "speakers": [
               {
                 "name": "Moderated by Nikita Cikaluk",
@@ -133,7 +133,7 @@
             "speakers": [
               {
                 "name": "Moderated by Łukasz Stoczyński",
-                "image": "/public/images/lukasz_stoczynski.jpeg"
+                "image": "/public/images/lukasz_stoczynski.jpg"
               }
             ]
           },
@@ -150,6 +150,17 @@
           },
           {
             "time": "18:30",
+            "title": "MakerDAO Oracle Core Unit Faciliator",
+            "description": "Launched in 2016, MakerDAO's Oracles have been a critical component in securing the Maker Protocol and billions of Dai. Now MakerDAO is launching Chronicle, a community-powered decentralized Oracle protocol. Chronicle will enable anyone to get the same bulletproof Oracles powering Maker, for free. This talk will detail the Chronicle stack, and the exciting future plans for Chronicle.",
+            "speakers": [
+              {
+                "name": "Nik Kunkel (Chrionicle)",
+                "image": "/public/images/nik_kunkel.png"
+              }
+            ]
+          },
+          {
+            "time": "19:00",
             "title": "⚡️Lightning Talk Round⚡️",
             "speakers": [
               {
@@ -159,7 +170,7 @@
             ]
           },
           {
-            "time": "19:00",
+            "time": "19:30",
             "title": "Happy Hour 🍺🍷"
           },
           {
@@ -177,18 +188,28 @@
       "workshopStage": {
         "events": [
           {
-            "time": "10:45",
-            "title": "Beginner Workshops: Web2 to Web3 Onboarding",
-            "description": "Perfect space for Web2 devs to start building on Web3 & beginners who want to build their first projects."
-          },
-          {
-            "time": "11:00",
+            "time": "10:30",
             "title": "Dapps, Smart Contracts & Blockchain - everything you wanted to know but were too afraid to ask",
             "description": "Intro to the fundamentals of all blockchain systems and then move on to talking about Ethereum itself. I’ll go through the main elements of the system like accounts, transactions and the concept of gas. I’ll briefly talk about Smart Contracts and their application in building Decentralised Applications.",
             "speakers": [
               {
-                "name": "TrueFi Engineering",
-                "image": "/public/images/truefi_engineering.jpeg"
+                "name": "Michał Sieczkowski (TrueFi)",
+                "image": "/public/images/michal_sieczkowski.png"
+              }
+            ]
+          },
+          {
+            "time": "11:30",
+            "title": "Write & deploy your first Smart Contract on Ethereum PART I",
+            "description": "We’ll first dive into the Solidity syntax to get comfortable reading Solidity code and soon writing some of our own! We’ll learn by examples and get to know the specifics of Smart Contract development. By the end of the workshop we’ll deploy a contract to a live testnet.",
+            "speakers": [
+              {
+                "name": "Łukasz Stankiewicz (TrueFi)",
+                "image": "/public/images/lukasz_stankiewicz.jpeg"
+              },
+              {
+                "name": "Michał Sieczkowski (TrueFi)",
+                "image": "/public/images/michal_sieczkowski.png"
               }
             ]
           },
@@ -198,39 +219,28 @@
           },
           {
             "time": "14:00",
-            "title": "Write & deploy your first Smart Contract on Ethereum",
-            "description": "We’ll first dive into the Solidity syntax to get comfortable reading Solidity code and soon writing some of our own! We’ll learn by examples and get to know the specifics of Smart Contract development. By the end of the workshop we’ll deploy a contract to a live testnet.",
+            "title": "Testing your Smart Contracts with Waffle",
+            "description": "You will go step by step through Smart Contracts development workflow - Using industry standard contracts, writing Solidity code, compiling and testing. You will get to know EthersJS library, and get some hand-on experience with Solidity and ERC20 tokens.",
             "speakers": [
               {
-                "name": "TrueFi Engineering",
-                "image": "/public/images/truefi_engineering.jpeg"
+                "name": "Przemysław Rząd (TrueFi)",
+                "image": "/public/images/przemyslaw_rzad.jpeg"
               }
             ]
           },
           {
             "time": "15:00",
-            "title": "Testing your Smart Contracts with Waffle",
-            "description": "You will go step by step through Smart Contracts development workflow - Using industry standard contracts, writing Solidity code, compiling and testing.  We will tell you about best practices and smart solutions in web3 testing.",
+            "title": "Build your first Decentralized App! - a frontend for your Smart Contracts",
+            "description": "During the workshop you will learn how to build decentralized applications using the React library. You'll learn how to interact with blockchain networks by building an application that will connect with contracts created at previous workshops. Additionally, you can receive a set of good practices related to building this type of applications.",
             "speakers": [
               {
-                "name": "TrueFi Engineering",
-                "image": "/public/images/truefi_engineering.jpeg"
+                "name": "Justyna Broniszewska (TrueFi)",
+                "image": "/public/images/justyna_broniszewska.jpeg"
               }
             ]
           },
           {
             "time": "16:00",
-            "title": "Build your first Decentralized App! - a frontend for your Smart Contracts",
-            "description": "During the workshop you will learn how to build decentralized applications using the React library. You'll learn how to interact with blockchain networks by building an application that will connect with contracts created at previous workshops. Additionally, you can receive a set of good practices related to building this type of applications.",
-            "speakers": [
-              {
-                "name": "TrueFi Engineering",
-                "image": "/public/images/truefi_engineering.jpeg"
-              }
-            ]
-          },
-          {
-            "time": "16:30",
             "title": "TBA",
             "description": "TBA",
             "speakers": [
@@ -271,7 +281,7 @@
           },
           {
             "time": "10:30",
-            "title": "Workshop: Smart Contract Security ",
+            "title": "Workshop: Best Practices in Web3 Coding",
             "speakers": [
               {
                 "name": "Michał Bazyli",
@@ -297,21 +307,21 @@
           {
             "time": "11:30",
             "title": "Getting on Starknet at Warp Speed",
-            "description": "Introduction to Warp 2.0 - L2 track Following Nethermind's shiny new release of Warp which transpiles Solidity to Cairo I'd like to do a brief introduction of Starknet and Cairo followed by a hands on walkthrough of deploying Solidity contracts to Starknet using Warp. The final part of the talk would be a useful developer focused overview on which Solidity constructs need to be altered in order to port large code bases. I was a lead dev on the warp project and the lead of the AAVE to Starknet Port at Nethermind.",
+            "description": "Warp's shiny new 2.0 release makes deploying your Solidity onto StarkNet easy. Follow along with this live coding demo (brace yourselves) of some transpilation examples and their deployment on StarkNet. We'll cover some examples of the changes you would need to make to accommodate Cario's semantics, we'll do a deep dive on some of the transformations the transpiler does, and finally, we'll discuss the future roadmap of the transpiler.",
             "speakers": [
               {
                 "name": "Jorik Schellekens (Nethermind)",
-                "image": "/images/jorik_schellekens.jpeg"
+                "image": "/public/images/jorik_schellekens.jpeg"
               }
             ]
           },
           {
             "time": "12:00",
-            "title": "Discussion Panel: Security",
-            "description": "Panelists: Uri Kirstein (Certora), Kacper Bąk (Quantstamp), Piotr Cielas (Halborn), Damian Rusinek (Composable Security)",
+            "title": "Discussion Panel: Web3 Trends",
+            "description": "Sumit Kishore (Consensys), Paulina Jóśków (Ramp Network), Retro (MakerDAO), Marcin Kaźmierczak (Redstone)",
             "speakers": [
               {
-                "name": "Moderated by Marek Kirejczyk (TrueFi)",
+                "name": "Mod: Brian McGleenon (Yahoo Finance)",
                 "image": "/public/images/marek_kirejczyk.jpeg"
               }
             ]
@@ -355,7 +365,7 @@
           },
           {
             "time": "15:30",
-            "title": "zkEVM march to mainnet",
+            "title": "zkEVM: compatibility and equivalence",
             "description": "TBA",
             "speakers": [
               {
@@ -366,12 +376,12 @@
           },
           {
             "time": "16:00",
-            "title": "Discussion Panel: Web3 Trends",
-            "description": "Sumit Kishore (Consensys), Ramp Network, AngelBlock, Redstone",
+            "title": "Discussion Panel: Security",
+            "description": "Panelists: Uri Kirstein (Certora), Kacper Bąk (Quantstamp), Piotr Cielas (Halborn), Damian Rusinek (Composable Security)",
             "speakers": [
               {
-                "name": "Mod: Brian McGleenon (Yahoo Finance)",
-                "image": "/public/images/brian_mcgleenon.jpeg"
+                "name": "Moderated by Marek Kirejczyk (TrueFi)",
+                "image": "/public/images/marek_kirejczyk.jpeg"
               }
             ]
           },
@@ -402,13 +412,18 @@
           },
           {
             "time": "18:30",
-            "title": "Warp Contracts Opening Workshop",
+            "title": "Arweave & Warp Contracts Opening Workshop",
+            "description": "Learn how to start with Arweave & Warp Contracts and compete for $10,000 total bounties brought by Warp & RedStone!",
             "speakers": [
               {
                 "name": "Arweave",
                 "image": "/public/images/arweave.jpeg"
               }
             ]
+          },
+          {
+            "time": "🌙",
+            "title": "🛠 Overnight hacking session"
           }
         ]
       },
@@ -422,6 +437,17 @@
               {
                 "name": "Certora",
                 "image": "/public/images/certora.jpeg"
+              }
+            ]
+          },
+          {
+            "time": "12:00",
+            "title": "Hackathon oracle integration with a few lines of code & deploying modular smart contracts on Arweave (Workshop)",
+            "description": "Storage-less oracles could become a game-changer for Web3, offering better scalability and shorter data refresh intervals. Simultaneously, modular smart-contract architecture is one of the hottest topics in recent weeks. At this workshop, you'll learn how to integrate Oracle data on a hackathon and how to implement Warp Contracts on top of the Arweave storage chain, allowing you to create unique hackathon projects with heavy data processing requirements.</br></br><a href='https://redstone.finance/' target='_blank' rel='noopener noreferrer'>redstone.finance</a>, </br><a href='https://warp.cc/' target='_blank' rel='noopener noreferrer'>warp.cc</a>",
+            "speakers": [
+              {
+                "name": "Redstone Finance",
+                "image": "/public/images/redstone_finance.png"
               }
             ]
           },
@@ -456,21 +482,6 @@
             ]
           },
           {
-            "time": "15:30",
-            "title": "AlephZero & Supercolony workshop",
-            "description": "TBA",
-            "speakers": [
-              {
-                "name": "AlephZero",
-                "image": "/public/images/alephzero.jpeg"
-              },
-              {
-                "name": "Supercolony",
-                "image": "/public/images/supercolony.jpeg"
-              }
-            ]
-          },
-          {
             "time": "16:00",
             "title": "StarkNet 101 - Introduction to Cairo smart contracts. Unleash the power of ZK-STARKs.",
             "description": "You will learn what StarkNet is, how it works and why it's so good. We’ll introduce you to the Cairo language, StarkNet ecosystem and tools. Then, in the practical part, you’ll build and deploy your own smart contract. No prior blockchain experience required, although we assume you have some general programming knowledge.",
@@ -484,6 +495,10 @@
           {
             "time": "18:00",
             "title": "Hackathon Opening"
+          },
+          {
+            "time": "🌙",
+            "title": "🛠 Overnight hacking session"
           }
         ]
       }
@@ -502,10 +517,32 @@
           },
           {
             "time": "13:00",
-            "title": "🥟Lunch with Stani Kulechov (👻AAVE)"
+            "title": "🥟Lunch with Stani Kulechov (👻AAVE) !!Hackers Only!!"
           },
           {
             "time": "14:00",
+            "title": "Panel: How to make your hackathon project stand out",
+            "speakers": [
+              {
+                "name": "Marek Kirejczyk (TrueFi CTO)",
+                "image": "/public/images/marek_kirejczyk.jpeg"
+              },
+              {
+                "name": "Stani Kulechov (Aave Founder)",
+                "image": "/public/images/stani_kulechov.jpeg"
+              },
+              {
+                "name": "Alex Gluchowski (Matter Labs CEO)",
+                "image": "/public/images/alex_gluchowski.png"
+              },
+              {
+                "name": "Jakub Wojciechowski (RedStone Founder)",
+                "image": "/public/images/jakub_wojciechowski.jpg"
+              }
+            ]
+          },
+          {
+            "time": "15:00",
             "title": "Open Mic session"
           },
           {
@@ -522,6 +559,10 @@
           {
             "time": "10:00",
             "title": "Hackathon submissions deadline"
+          },
+          {
+            "time": "11:00",
+            "title": "Judging sessions for ETHWarsaw Prizes"
           },
           {
             "time": "16:00",
