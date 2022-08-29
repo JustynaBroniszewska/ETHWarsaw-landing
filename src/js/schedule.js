@@ -27,7 +27,6 @@ const renderTab = (parent, name, active) => {
 const renderEvent = (parent, eventData) => {
   const eventItem = document.createElement('div')
   eventItem.classList.add('schedule__table-event')
-  eventItem.classList.add('schedule__table-event--active')
   const eventItemButton = document.createElement('button')
   eventItemButton.classList.add('schedule__table-event-button')
   const eventItemBody = document.createElement('div')
