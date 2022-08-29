@@ -282,6 +282,17 @@ a.schedule__checkout {
   cursor: pointer;
 }
 
+.schedule__table-tab-text {
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: inherit;
+  pointer-events: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
 @media screen and (max-width: 768px) {
   .schedule__table-tabs {
     -webkit-column-gap: 12px;
@@ -289,9 +300,14 @@ a.schedule__checkout {
             column-gap: 12px;
   }
   .schedule__table-tab {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 14px;
+    line-height: 20px;
     letter-spacing: unset;
+    min-height: 60px;
+    height: 60px;
+  }
+  .schedule__table-tab-subtext {
+    display: none;
   }
 }
 .schedule__table-tab::before {

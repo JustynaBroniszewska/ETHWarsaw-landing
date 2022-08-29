@@ -13,14 +13,14 @@ const renderDayButton = (date, index) => {
   scheduleDaysList.appendChild(dayButton)
 }
 
-const renderTab = (parent, name, active) => {
+const renderTab = (parent, innerText, name, active) => {
   const dayTab = document.createElement('button')
   dayTab.classList.add('schedule__table-tab')
   if (active === true) {
     dayTab.classList.add('schedule__table-tab--active')
   }
   dayTab.dataset.scheduleStage = name
-  dayTab.innerHTML = name
+  dayTab.innerHTML = innerText
   parent.appendChild(dayTab)
 }
 
@@ -124,12 +124,16 @@ const renderDayTable = (date, index) => {
   dayTable.appendChild(dayStages)
 
   if (date.mainStage) {
-    renderTab(dayTabs, 'Main stage', true)
+    renderTab(dayTabs, '<span class="schedule__table-tab-text">Main <span class="schedule__table-tab-subtext">stage</span></span>', 'Main stage', true)
     renderStage(date.mainStage, dayStages, 'Main stage', true)
   }
   if (date.workshopStage) {
-    renderTab(dayTabs, 'Workshop stage', false)
+    renderTab(dayTabs, '<span class="schedule__table-tab-text">Workshop <span class="schedule__table-tab-subtext">stage</span></span>', 'Workshop stage', false)
     renderStage(date.workshopStage, dayStages, 'Workshop stage', false)
+  }
+  if (date.trends) {
+    renderTab(dayTabs, '<span class="schedule__table-tab-text">web3 trends <span class="schedule__table-tab-subtext">stage</span></span>', 'web3 trends stage', false)
+    renderStage(date.trends, dayStages, 'web3 trends stage', false)
   }
   scheduleTables.appendChild(dayTable)
 }
