@@ -323,6 +323,16 @@ a:active {
   background: linear-gradient(0deg, rgba(85, 238, 200, 0.3), rgba(85, 238, 200, 0.3)), #ffffff;
 }
 
+.tickets-button--disabled {
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+  cursor: not-allowed;
+}
+.tickets-button--disabled:hover, .tickets-button--disabled:focus-visible {
+  background: #ffffff;
+  color: #000000;
+}
+
 .tickets-button-title {
   font-weight: 700;
   font-size: 32px;
