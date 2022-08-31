@@ -324,7 +324,13 @@ a:active {
 }
 
 .tickets-button--disabled {
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
   cursor: not-allowed;
+}
+.tickets-button--disabled:hover, .tickets-button--disabled:focus-visible {
+  background: #ffffff;
+  color: #000000;
 }
 
 .tickets-button-title {

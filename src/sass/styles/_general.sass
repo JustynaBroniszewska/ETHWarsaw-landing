@@ -163,8 +163,13 @@ a:active
   background: linear-gradient(0deg, rgba(85, 238, 200, 0.3), rgba(85, 238, 200, 0.3)), #ffffff
 
 .tickets-button--disabled
+  filter: grayscale(1)
   cursor: not-allowed
-  
+
+  &:hover,
+  &:focus-visible
+    background: #ffffff
+    color: #000000
 
 .tickets-button-title
   font-weight: 700
