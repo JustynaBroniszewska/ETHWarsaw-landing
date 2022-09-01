@@ -366,7 +366,7 @@
           {
             "time": "15:30",
             "title": "zkEVM: compatibility and equivalence",
-            "description": "TBA",
+            "description": "Alex Gluchowski, co-founder of Ethereum scaling platform zkSync, will offer a look at the importance of zkRollups, the difference between EVM equivalency and EVM compatibility, and the current deployment state amongst zkRollup options.",
             "speakers": [
               {
                 "name": "Alex Gluchowski (ZkSync)",
