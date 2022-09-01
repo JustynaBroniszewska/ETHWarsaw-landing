@@ -241,12 +241,12 @@
           },
           {
             "time": "16:00",
-            "title": "TBA",
-            "description": "TBA",
+            "title": "Build your first governance contract",
+            "description": "In this workshop you will learn about DAO & governance, how it works with a live product like Uniswap, build your own governance contract and test it with a prepared frontend.",
             "speakers": [
               {
-                "name": "Ramp Network",
-                "image": "/public/images/ramp_network.png"
+                "name": "Marcin Miler (Ramp Network)",
+                "image": "/public/images/marcin_miler.jpg"
               }
             ]
           },
