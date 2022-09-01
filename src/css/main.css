@@ -1600,3 +1600,24 @@ a.about__socials-item {
 a.speaker__social {
   color: #9291e4;
 }
+
+.privacy-wrapper {
+  width: 100%;
+  max-width: 1050px;
+  margin: -32px auto 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .privacy-wrapper {
+    max-width: 100%;
+    padding: 0 24px;
+  }
+}
+a.privacy-policy {
+  padding: 8px 0;
+  font-family: "Lexend";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #3f3f3f;
+}
