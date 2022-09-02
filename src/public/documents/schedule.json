@@ -625,7 +625,7 @@
           {
             "time": "16:00",
             "title": "Introduction to DeFi Bartek Rutkowski",
-            "description": "It’s been a while since Decentralised Finance has become the hottest trend in the crypto space. But what actually is Decentralised Finance? How does it work? What value does it bring? Why should I care? If you want to find out, this presentation is a must-see! Gelato Network is Web3's premier automation network, enabling developers to automate a wide variety of arbitrary smart contract executions on and across all EVM-compatible blockchains. Examples of use cases developers have built on top of Gelato include Limit Orders on AMMs like Uniswap, automatic compounding of yield farming vaults, Aave liquidation protection, MakerDAO debt ceiling updates, automated liquidity management, and even the petting of Aavegotchis.",
+            "description": "It’s been a while since Decentralised Finance has become the hottest trend in the crypto space. But what actually is Decentralised Finance? How does it work? What value does it bring? Why should I care? If you want to find out, this presentation is a must-see!",
             "speakers": [
               {
                 "name": "Bartek Rutkowski (TrueFi)",
